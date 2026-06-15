@@ -1,0 +1,27 @@
+{
+  "name": "khaled-hasan-portfolio",
+  "version": "1.0.0",
+  "description": "Personal academic portfolio for Khaled Hasan, Lecturer (CSE, MIST). Full-stack: static frontend, Express API, SQLite database.",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "seed": "node server/seed.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "portfolio",
+    "academic",
+    "express",
+    "sqlite"
+  ],
+  "author": "Khaled Hasan",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2"
+  }
+}
