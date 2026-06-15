@@ -10,7 +10,7 @@
     "seed": "node server/seed.js"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=22.5"
   },
   "keywords": [
     "portfolio",
@@ -21,7 +21,6 @@
   "author": "Khaled Hasan",
   "license": "MIT",
   "dependencies": {
-    "better-sqlite3": "^11.8.1",
     "express": "^4.21.2"
   }
 }

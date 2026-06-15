@@ -8,7 +8,7 @@ Dark, modern, animated. Built with a static frontend, an Express API, and a SQLi
 
 - **Frontend**: Semantic HTML5, plain CSS, and vanilla JavaScript. No build step. Google Fonts only. Scroll reveals use the IntersectionObserver API and respect `prefers-reduced-motion`.
 - **Backend**: Node.js with Express. Serves the site and a small REST API.
-- **Database**: SQLite through `better-sqlite3`. Stores site content and contact messages.
+- **Database**: SQLite through Node's built-in `node:sqlite` module. No native build step, so it installs cleanly on any machine with Node 22.5+ (Node 24 recommended). Stores site content and contact messages.
 
 ## Design notes
 
@@ -19,12 +19,13 @@ Dark, modern, animated. Built with a static frontend, an Express API, and a SQLi
 ## Run it
 
 ```bash
-npm install
-npm run seed   # optional: the server also auto-seeds on first boot
-npm start
+npm install    # installs Express only; the database needs no build step
+npm start      # the server auto-seeds the database on first boot
 ```
 
 Then open http://localhost:3000
+
+Node 24 or newer is recommended. On Node versions from 22.5 up to 23.3, run with the flag: `node --experimental-sqlite server/index.js`.
 
 For live reload during development:
 

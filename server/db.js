@@ -1,5 +1,6 @@
-// SQLite setup with better-sqlite3. The database file lives in /data.
-import Database from 'better-sqlite3';
+// SQLite setup using Node's built-in node:sqlite module.
+// No native build step needed; it ships with Node 22.5+ (stable in Node 24).
+import { DatabaseSync } from 'node:sqlite';
 import { mkdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -9,9 +10,9 @@ const dataDir = join(__dirname, '..', 'data');
 mkdirSync(dataDir, { recursive: true });
 
 const dbPath = process.env.DB_PATH || join(dataDir, 'portfolio.db');
-export const db = new Database(dbPath);
+export const db = new DatabaseSync(dbPath);
 
-db.pragma('journal_mode = WAL');
+db.exec('PRAGMA journal_mode = WAL;');
 
 db.exec(`
   CREATE TABLE IF NOT EXISTS publications (

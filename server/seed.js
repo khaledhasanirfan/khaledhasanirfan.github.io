@@ -3,34 +3,28 @@
 import { db } from './db.js';
 import { publications, projects, news } from './data.js';
 
-const seed = db.transaction(() => {
-  db.prepare('DELETE FROM publications').run();
-  db.prepare('DELETE FROM projects').run();
-  db.prepare('DELETE FROM news').run();
+db.exec('DELETE FROM publications; DELETE FROM projects; DELETE FROM news;');
 
-  const insPub = db.prepare(
-    `INSERT INTO publications (title, venue, year, doi, status, tags, position)
-     VALUES (@title, @venue, @year, @doi, @status, @tags, @position)`
-  );
-  publications.forEach((p, i) =>
-    insPub.run({ ...p, tags: JSON.stringify(p.tags || []), position: i })
-  );
+const insPub = db.prepare(
+  `INSERT INTO publications (title, venue, year, doi, status, tags, position)
+   VALUES (?, ?, ?, ?, ?, ?, ?)`
+);
+publications.forEach((p, i) =>
+  insPub.run(p.title, p.venue, p.year, p.doi, p.status, JSON.stringify(p.tags || []), i)
+);
 
-  const insProj = db.prepare(
-    `INSERT INTO projects (title, role, summary, highlight, tags, position)
-     VALUES (@title, @role, @summary, @highlight, @tags, @position)`
-  );
-  projects.forEach((p, i) =>
-    insProj.run({ ...p, tags: JSON.stringify(p.tags || []), position: i })
-  );
+const insProj = db.prepare(
+  `INSERT INTO projects (title, role, summary, highlight, tags, position)
+   VALUES (?, ?, ?, ?, ?, ?)`
+);
+projects.forEach((p, i) =>
+  insProj.run(p.title, p.role, p.summary, p.highlight, JSON.stringify(p.tags || []), i)
+);
 
-  const insNews = db.prepare(
-    `INSERT INTO news (date, text, position) VALUES (@date, @text, @position)`
-  );
-  news.forEach((n, i) => insNews.run({ ...n, position: i }));
-});
-
-seed();
+const insNews = db.prepare(
+  `INSERT INTO news (date, text, position) VALUES (?, ?, ?)`
+);
+news.forEach((n, i) => insNews.run(n.date, n.text, i));
 
 console.log('Seeded:', {
   publications: db.prepare('SELECT COUNT(*) c FROM publications').get().c,
