@@ -242,9 +242,11 @@
       .reveal{opacity:1;transform:none;transition:none}
       .hero-orb{animation:none}
     }
+    #bg-canvas{position:fixed;inset:0;z-index:-1;pointer-events:none}
   </style>
 </head>
 <body>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="nav" id="nav">
@@ -673,6 +675,9 @@
   (function(){
     'use strict';
     const rm=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    // Constellation background
+    {const cvs=document.getElementById('bg-canvas');if(cvs&&!rm){const cx=cvs.getContext('2d');const IC='124,108,255',TC='52,214,196';let W,H,pts,N;function rs(){W=cvs.width=innerWidth;H=cvs.height=innerHeight;N=W<600?30:60}function ip(){pts=[];for(let i=0;i<N;i++)pts.push({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.45,vy:(Math.random()-.5)*.45,r:Math.random()*1.3+.6,c:Math.random()>.35?IC:TC})}const MD=140,MD2=MD*MD;function dr(){cx.clearRect(0,0,W,H);for(const p of pts){p.x+=p.vx;p.y+=p.vy;if(p.x<0){p.x=0;p.vx=-p.vx}else if(p.x>W){p.x=W;p.vx=-p.vx}if(p.y<0){p.y=0;p.vy=-p.vy}else if(p.y>H){p.y=H;p.vy=-p.vy}}for(let i=0;i<pts.length-1;i++){for(let j=i+1;j<pts.length;j++){const dx=pts[i].x-pts[j].x,dy=pts[i].y-pts[j].y,d=dx*dx+dy*dy;if(d<MD2){cx.beginPath();cx.strokeStyle=`rgba(${pts[i].c},${(1-Math.sqrt(d)/MD)*.14})`;cx.lineWidth=.8;cx.moveTo(pts[i].x,pts[i].y);cx.lineTo(pts[j].x,pts[j].y);cx.stroke()}}}for(const p of pts){cx.beginPath();cx.fillStyle=`rgba(${p.c},.5)`;cx.arc(p.x,p.y,p.r,0,Math.PI*2);cx.fill()}requestAnimationFrame(dr)}window.addEventListener('resize',()=>{rs();ip()},{passive:true});rs();ip();dr()}}
 
     const nav=document.getElementById('nav');
     const toggle=document.getElementById('navToggle');
