@@ -166,9 +166,11 @@
     /* Education timeline */
     .edu-timeline{position:relative;margin:0;padding:0 0 0 30px;list-style:none}
     .edu-timeline::before{content:'';position:absolute;left:6px;top:8px;bottom:8px;width:2px;background:linear-gradient(180deg,var(--indigo),var(--teal))}
-    .edu-item{position:relative;padding:0 0 34px 0}
+    .edu-item{position:relative;padding:0 0 34px 0;display:flex;gap:22px;align-items:flex-start}
     .edu-item:last-child{padding-bottom:0}
     .edu-item::before{content:'';position:absolute;left:-30px;top:6px;width:13px;height:13px;border-radius:50%;background:var(--bg);border:2px solid var(--indigo)}
+    .edu-main{flex:1;min-width:0}
+    .edu-logo{flex-shrink:0;width:64px;height:64px;object-fit:contain;border-radius:14px;background:#fff;padding:8px;box-shadow:0 8px 22px -12px rgba(0,0,0,.7)}
     .edu-top{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:baseline}
     .edu-school{font-family:var(--font-display);font-weight:600;font-size:1.12rem;color:var(--text)}
     .edu-date{font-family:var(--font-mono);font-size:.8rem;color:var(--teal);white-space:nowrap}
@@ -184,11 +186,13 @@
     .teaching-stats{display:flex;gap:36px;margin:0 0 36px}
     .teaching-stats .fact-num{display:block;font-family:var(--font-display);font-size:1.9rem;font-weight:700;color:var(--indigo-soft)}
     .teaching-stats .fact-text{font-size:.9rem;color:var(--muted)}
-    .course-group{margin-bottom:26px}
-    .course-group h3{font-size:1.02rem;color:var(--text);margin:0 0 14px;font-family:var(--font-display)}
-    .course-chips{display:flex;flex-wrap:wrap;gap:8px}
-    .course-chips span{font-size:.82rem;color:var(--text);background:var(--surface);border:1px solid var(--border);border-radius:7px;padding:6px 11px}
-    .course-chips b{font-family:var(--font-mono);color:var(--indigo-soft);font-weight:500;margin-right:6px}
+    .course-group{margin-bottom:34px}
+    .course-group h3{font-size:1.05rem;color:var(--indigo-soft);margin:0 0 12px;font-family:var(--font-display);display:flex;align-items:center;gap:10px}
+    .course-group h3::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--teal);flex-shrink:0}
+    .course-table{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:0 40px}
+    .course-row{display:flex;gap:14px;padding:11px 2px;border-bottom:1px solid var(--border);align-items:baseline}
+    .course-code{font-family:var(--font-mono);font-size:.8rem;color:var(--teal);min-width:74px;flex-shrink:0}
+    .course-name{color:var(--text);font-size:.95rem;text-align:left}
 
     /* Honors */
     .honors-list{list-style:none;margin:0;padding:0}
@@ -409,10 +413,10 @@
           <article class="xp-card reveal">
             <div class="xp-body">
               <span class="xp-role">Project Coordinator</span>
-              <span class="xp-org">Mobile &amp; App Development Project for Bangladesh Army</span>
+              <span class="xp-org">Secure Mobile &amp; Web App Project, Bangladesh Army</span>
               <span class="xp-meta">May 2025 - Present</span>
             </div>
-            <span class="xp-logo-fallback">BA</span>
+            <img class="xp-logo" src="bd%20army%20logo.png" alt="Bangladesh Army logo" onerror="this.outerHTML='<span class=&quot;xp-logo-fallback&quot;>BA</span>'" />
           </article>
           <article class="xp-card reveal">
             <div class="xp-body">
@@ -481,7 +485,7 @@
         <div class="skills reveal">
           <div class="skill-row"><span class="skill-cat">Programming</span><div class="skill-tags"><span>Python</span><span>C++</span><span>C</span><span>JavaScript</span><span>SQL</span><span>Bash</span><span>LaTeX</span></div></div>
           <div class="skill-row"><span class="skill-cat">ML / AI</span><div class="skill-tags"><span>PyTorch</span><span>TensorFlow</span><span>Keras</span><span>Scikit-learn</span><span>FastAI</span><span>HuggingFace Transformers</span><span>OpenCV</span><span>NLTK</span><span>spaCy</span></div></div>
-          <div class="skill-row"><span class="skill-cat">Deployment &amp; Tools</span><div class="skill-tags"><span>FastAPI</span><span>Streamlit</span><span>Git</span><span>Raspberry Pi</span><span>Arduino IDE</span><span>Google Colab</span><span>Jupyter</span><span>Figma</span><span>Tableau</span><span>MATLAB</span><span>Cisco Packet Tracer</span></div></div>
+          <div class="skill-row"><span class="skill-cat">Deployment &amp; Tools</span><div class="skill-tags"><span>FastAPI</span><span>Streamlit</span><span>Git</span><span>Raspberry Pi</span><span>Arduino IDE</span><span>Google Colab</span><span>Jupyter</span><span>Figma</span><span>Tableau</span><span>MATLAB</span></div></div>
           <div class="skill-row"><span class="skill-cat">Databases</span><div class="skill-tags"><span>MySQL</span><span>MongoDB</span><span>Firebase</span><span>Oracle</span></div></div>
         </div>
       </div>
@@ -607,38 +611,47 @@
         </header>
         <ol class="edu-timeline">
           <li class="edu-item reveal">
-            <div class="edu-top">
-              <span class="edu-school">Military Institute of Science and Technology</span>
-              <span class="edu-date">Jan 2020 - Mar 2024</span>
+            <div class="edu-main">
+              <div class="edu-top">
+                <span class="edu-school">Military Institute of Science and Technology</span>
+                <span class="edu-date">Jan 2020 - Mar 2024</span>
+              </div>
+              <p class="edu-degree">B.Sc. in Computer Science and Engineering</p>
+              <p class="edu-loc">Dhaka, Bangladesh</p>
+              <ul class="edu-points">
+                <li>CGPA <b>3.83 out of 4.00</b> (highest 3.98, Spring 2022)</li>
+                <li>Thesis: <b>Adaptive User Interface in Mobile Banking: A Machine Learning Approach to Enhance UX.</b> Built an adaptive UI prototype using a custom ML pipeline driven by users' tapping behavior.</li>
+              </ul>
             </div>
-            <p class="edu-degree">B.Sc. in Computer Science and Engineering</p>
-            <p class="edu-loc">Dhaka, Bangladesh</p>
-            <ul class="edu-points">
-              <li>CGPA <b>3.83 out of 4.00</b> (highest 3.98, Spring 2022)</li>
-              <li>Thesis: <b>Adaptive User Interface in Mobile Banking: A Machine Learning Approach to Enhance UX.</b> Built an adaptive UI prototype using a custom ML pipeline driven by users' tapping behavior.</li>
-            </ul>
+            <img class="edu-logo" src="mist_logo.png" alt="MIST logo" onerror="this.style.display='none'" />
           </li>
           <li class="edu-item reveal">
-            <div class="edu-top">
-              <span class="edu-school">Notre Dame College</span>
-              <span class="edu-date">Jul 2017 - Apr 2019</span>
+            <div class="edu-main">
+              <div class="edu-top">
+                <span class="edu-school">Notre Dame College</span>
+                <span class="edu-date">Jul 2017 - Apr 2019</span>
+              </div>
+              <p class="edu-degree">Higher Secondary Certificate, Science</p>
+              <p class="edu-loc">Dhaka, Bangladesh</p>
+              <ul class="edu-points">
+                <li>GPA <b>5.00 out of 5.00</b> (Board Scholarship)</li>
+              </ul>
             </div>
-            <p class="edu-degree">Higher Secondary Certificate, Science</p>
-            <p class="edu-loc">Dhaka, Bangladesh</p>
-            <ul class="edu-points">
-              <li>GPA <b>5.00 out of 5.00</b> (Board Scholarship)</li>
-            </ul>
+            <img class="edu-logo" src="ndc_logo.png" alt="Notre Dame College logo" onerror="this.style.display='none'" />
           </li>
           <li class="edu-item reveal">
-            <div class="edu-top">
-              <span class="edu-school">Ideal School and College, Motijheel (English Version)</span>
-              <span class="edu-date">Jan 2007 - Feb 2017</span>
+            <div class="edu-main">
+              <div class="edu-top">
+                <span class="edu-school">Ideal School and College, Motijheel (English Version)</span>
+                <span class="edu-date">Jan 2007 - Feb 2017</span>
+              </div>
+              <p class="edu-degree">Secondary School Certificate, Science</p>
+              <p class="edu-loc">Dhaka, Bangladesh</p>
+              <ul class="edu-points">
+                <li>GPA <b>5.00</b></li>
+              </ul>
             </div>
-            <p class="edu-degree">Secondary School Certificate, Science</p>
-            <p class="edu-loc">Dhaka, Bangladesh</p>
-            <ul class="edu-points">
-              <li>GPA <b>5.00</b></li>
-            </ul>
+            <img class="edu-logo" src="ideal%20school%20logo.jpg" alt="Ideal School and College logo" onerror="this.style.display='none'" />
           </li>
         </ol>
       </div>
@@ -648,44 +661,45 @@
       <div class="container">
         <header class="section-head reveal">
           <span class="section-index">07</span>
-          <h2>Teaching</h2>
+          <h2>Teaching Experience</h2>
         </header>
-        <p class="teaching-lead reveal">Courses I have taught and supervised at MIST.</p>
+        <p class="teaching-lead reveal">As a Lecturer at MIST, I teach and supervise across theory, laboratory, and capstone courses.</p>
         <div class="teaching-stats reveal">
           <div><span class="fact-num">18</span><span class="fact-text">courses taught</span></div>
           <div><span class="fact-num">220+</span><span class="fact-text">students guided</span></div>
+          <div><span class="fact-num">3</span><span class="fact-text">course areas</span></div>
         </div>
         <div class="course-group reveal">
           <h3>Programming &amp; Software</h3>
-          <div class="course-chips">
-            <span><b>CSE-105</b>Structured Programming Language</span>
-            <span><b>CSE-106</b>Structured Programming Language Sessional</span>
-            <span><b>CSE-110</b>Computer Programming Laboratory</span>
-            <span><b>CSE-205</b>Object-Oriented Programming Language</span>
-            <span><b>CSE-206</b>OOP Sessional-I</span>
-            <span><b>CSE-220</b>OOP Sessional-II</span>
-            <span><b>CSE-216</b>Data Structures &amp; Algorithms Sessional-II</span>
-            <span><b>CSE-281</b>Computer Programming</span>
-            <span><b>CSE-282</b>Computer Programming Sessional</span>
-            <span><b>CSE-291</b>Computer Programming Techniques</span>
-            <span><b>CSE-292</b>Computer Programming Techniques Sessional</span>
+          <div class="course-table">
+            <div class="course-row"><span class="course-code">CSE-105</span><span class="course-name">Structured Programming Language</span></div>
+            <div class="course-row"><span class="course-code">CSE-106</span><span class="course-name">Structured Programming Language Sessional</span></div>
+            <div class="course-row"><span class="course-code">CSE-110</span><span class="course-name">Computer Programming Laboratory</span></div>
+            <div class="course-row"><span class="course-code">CSE-205</span><span class="course-name">Object-Oriented Programming Language</span></div>
+            <div class="course-row"><span class="course-code">CSE-206</span><span class="course-name">OOP Sessional-I</span></div>
+            <div class="course-row"><span class="course-code">CSE-220</span><span class="course-name">OOP Sessional-II</span></div>
+            <div class="course-row"><span class="course-code">CSE-216</span><span class="course-name">Data Structures &amp; Algorithms Sessional-II</span></div>
+            <div class="course-row"><span class="course-code">CSE-281</span><span class="course-name">Computer Programming</span></div>
+            <div class="course-row"><span class="course-code">CSE-282</span><span class="course-name">Computer Programming Sessional</span></div>
+            <div class="course-row"><span class="course-code">CSE-291</span><span class="course-name">Computer Programming Techniques</span></div>
+            <div class="course-row"><span class="course-code">CSE-292</span><span class="course-name">Computer Programming Techniques Sessional</span></div>
           </div>
         </div>
         <div class="course-group reveal">
           <h3>Systems &amp; Architecture</h3>
-          <div class="course-chips">
-            <span><b>CSE-104</b>Digital Logic Design Laboratory</span>
-            <span><b>CSE-213</b>Computer Architecture</span>
-            <span><b>CSE-307</b>Operating System</span>
-            <span><b>CSE-308</b>Operating System Sessional</span>
-            <span><b>CSE-310</b>Computer Networking Sessional</span>
+          <div class="course-table">
+            <div class="course-row"><span class="course-code">CSE-104</span><span class="course-name">Digital Logic Design Laboratory</span></div>
+            <div class="course-row"><span class="course-code">CSE-213</span><span class="course-name">Computer Architecture</span></div>
+            <div class="course-row"><span class="course-code">CSE-307</span><span class="course-name">Operating System</span></div>
+            <div class="course-row"><span class="course-code">CSE-308</span><span class="course-name">Operating System Sessional</span></div>
+            <div class="course-row"><span class="course-code">CSE-310</span><span class="course-name">Computer Networking Sessional</span></div>
           </div>
         </div>
         <div class="course-group reveal">
           <h3>Capstone Supervision</h3>
-          <div class="course-chips">
-            <span><b>CSE-350</b>Industrial Training</span>
-            <span><b>CSE-400</b>Undergraduate Thesis</span>
+          <div class="course-table">
+            <div class="course-row"><span class="course-code">CSE-350</span><span class="course-name">Industrial Training</span></div>
+            <div class="course-row"><span class="course-code">CSE-400</span><span class="course-name">Undergraduate Thesis</span></div>
           </div>
         </div>
       </div>
@@ -698,15 +712,15 @@
           <h2>Honors and Awards</h2>
         </header>
         <ul class="honors-list">
-          <li class="linked reveal"><a class="honor-link" href="https://doi.org/10.1109/ICCIT68739.2025.11491675" target="_blank" rel="noopener" aria-label="Open the awarded paper"></a><span class="honor-date">Dec 2025</span><span class="honor-text"><b>Top 2% Paper Award, ICCIT 2025 (IEEE)</b> for the paper on agricultural mobile app usability, among the top 2% of all accepted papers.</span></li>
-          <li class="reveal"><span class="honor-date">2020 - 2024</span><span class="honor-text"><b>Commandant's List of Honour, MIST.</b> CGPA 3.80 or above in 2020, 2022, and 2023.</span></li>
-          <li class="reveal"><span class="honor-date">2020 - 2024</span><span class="honor-text"><b>Dean's List of Honour, MIST.</b> CGPA 3.70 or above in all four academic years.</span></li>
-          <li class="reveal"><span class="honor-date">Jul 2025</span><span class="honor-text"><b>Project Demo selected for National Innovation Summit (BEAR Summit 2025).</b> Team Lead.</span></li>
-          <li class="reveal"><span class="honor-date">Aug 2023</span><span class="honor-text"><b>Champion, Research-Based Poster Presentation, BUP IEEE Branch Fest.</b> Team Lead, Light Canvas.</span></li>
-          <li class="reveal"><span class="honor-date">Jul 2021</span><span class="honor-text"><b>Champion, University Rover Challenge 2021 (The Mars Society, USA).</b> Team Member, MIST Mongol Barota.</span></li>
-          <li class="reveal"><span class="honor-date">Jul 2022</span><span class="honor-text"><b>2nd Runner-up, Anatolian Rover Challenge 2022 (Turkiye).</b> Team Member, MIST Mongol Barota.</span></li>
-          <li class="reveal"><span class="honor-date">Jul 2023</span><span class="honor-text"><b>Top 10 Teams, Inter-University Hackathon, BUET CSE Fest.</b> Team MISTCarDNulls.</span></li>
-          <li class="reveal"><span class="honor-date">Jul 2023</span><span class="honor-text"><b>Top 20 Teams Final Round, WIEHACK 4.0 (IEEE Bangladesh).</b> Team Lead, Light Canvas.</span></li>
+          <li class="linked reveal"><a class="honor-link" href="https://drive.google.com/file/d/1GNbvG1YLTd528E13f26xbuoeItwXDaAz/view?usp=sharing" target="_blank" rel="noopener" aria-label="View certificate"></a><span class="honor-date">Dec 2025</span><span class="honor-text"><b>Top 2% Paper Award, ICCIT 2025 (IEEE)</b> for the paper on agricultural mobile app usability, among the top 2% of all accepted papers.</span></li>
+          <li class="linked reveal"><a class="honor-link" href="https://mist.ac.bd/page/awards" target="_blank" rel="noopener" aria-label="MIST awards page"></a><span class="honor-date">2020 - 2024</span><span class="honor-text"><b>Commandant's List of Honour, MIST.</b> CGPA 3.80 or above in 2020, 2022, and 2023.</span></li>
+          <li class="linked reveal"><a class="honor-link" href="https://drive.google.com/file/d/1-ARLkvvJNkq9esrzxTg5OiWdDJdYDT3t/view?usp=sharing" target="_blank" rel="noopener" aria-label="View certificate"></a><span class="honor-date">2020 - 2024</span><span class="honor-text"><b>Dean's List of Honour, MIST.</b> CGPA 3.70 or above in all four academic years.</span></li>
+          <li class="linked reveal"><a class="honor-link" href="https://drive.google.com/drive/folders/1p0uymY_IQc37TApIlCYiwP7pgmeeHvDt" target="_blank" rel="noopener" aria-label="View certificate"></a><span class="honor-date">Jul 2025</span><span class="honor-text"><b>Project Demo selected for National Innovation Summit (BEAR Summit 2025).</b> Team Lead.</span></li>
+          <li class="linked reveal"><a class="honor-link" href="https://drive.google.com/file/d/1jGDUktyob_RrgQQw9QQY4_LUdv0UdYsv/view?usp=drive_link" target="_blank" rel="noopener" aria-label="View certificate"></a><span class="honor-date">Aug 2023</span><span class="honor-text"><b>Champion, Research-Based Poster Presentation, BUP IEEE Branch Fest.</b> Team Lead, Light Canvas.</span></li>
+          <li class="linked reveal"><a class="honor-link" href="https://drive.google.com/file/d/1MkUrm6eED3lDgCsE7scUnIMk-F8os4KD/view?usp=drive_link" target="_blank" rel="noopener" aria-label="View certificate"></a><span class="honor-date">Jul 2021</span><span class="honor-text"><b>Champion, University Rover Challenge 2021 (The Mars Society, USA).</b> Team Member, MIST Mongol Barota.</span></li>
+          <li class="linked reveal"><a class="honor-link" href="https://drive.google.com/file/d/1AXlDEjqP6l7inlAJkzrCvZaPyjlRuJCJ/view?usp=drive_link" target="_blank" rel="noopener" aria-label="View certificate"></a><span class="honor-date">Jul 2022</span><span class="honor-text"><b>2nd Runner-up, Anatolian Rover Challenge 2022 (Turkiye).</b> Team Member, MIST Mongol Barota.</span></li>
+          <li class="linked reveal"><a class="honor-link" href="https://drive.google.com/file/d/1mMrkrVoilDV2DgglxP-ovAJuxFZ19Q16/view?usp=drive_link" target="_blank" rel="noopener" aria-label="View details"></a><span class="honor-date">Jul 2023</span><span class="honor-text"><b>Top 10 Teams, Inter-University Hackathon, BUET CSE Fest.</b> Team MISTCarDNulls.</span></li>
+          <li class="linked reveal"><a class="honor-link" href="https://drive.google.com/file/d/1GJiiY69hz2cM1DyYHlKtSUkwij2SID5b/view?usp=drive_link" target="_blank" rel="noopener" aria-label="View certificate"></a><span class="honor-date">Jul 2023</span><span class="honor-text"><b>Top 20 Teams Final Round, WIEHACK 4.0 (IEEE Bangladesh).</b> Team Lead, Light Canvas.</span></li>
         </ul>
       </div>
     </section>
@@ -770,8 +784,12 @@
     'use strict';
     const rm=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-    // Constellation background
-    {const cvs=document.getElementById('bg-canvas');if(cvs&&!rm){const cx=cvs.getContext('2d');const IC='124,108,255',TC='52,214,196';let W,H,pts,N,mx=-999,my=-999;function rs(){W=cvs.width=innerWidth;H=cvs.height=innerHeight;N=W<600?30:64}function ip(){pts=[];for(let i=0;i<N;i++)pts.push({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.45,vy:(Math.random()-.5)*.45,r:Math.random()*1.3+.6,c:Math.random()>.35?IC:TC})}const MD=140,MD2=MD*MD,MR=170,MR2=MR*MR;function dr(){cx.clearRect(0,0,W,H);for(const p of pts){p.x+=p.vx;p.y+=p.vy;if(p.x<0){p.x=0;p.vx=-p.vx}else if(p.x>W){p.x=W;p.vx=-p.vx}if(p.y<0){p.y=0;p.vy=-p.vy}else if(p.y>H){p.y=H;p.vy=-p.vy}}for(let i=0;i<pts.length-1;i++){for(let j=i+1;j<pts.length;j++){const dx=pts[i].x-pts[j].x,dy=pts[i].y-pts[j].y,d=dx*dx+dy*dy;if(d<MD2){cx.beginPath();cx.strokeStyle=`rgba(${pts[i].c},${(1-Math.sqrt(d)/MD)*.14})`;cx.lineWidth=.8;cx.moveTo(pts[i].x,pts[i].y);cx.lineTo(pts[j].x,pts[j].y);cx.stroke()}}}if(mx>-900){for(const p of pts){const dx=p.x-mx,dy=p.y-my,d=dx*dx+dy*dy;if(d<MR2){const t=1-Math.sqrt(d)/MR;cx.beginPath();cx.strokeStyle=`rgba(${p.c},${t*.4})`;cx.lineWidth=1;cx.moveTo(p.x,p.y);cx.lineTo(mx,my);cx.stroke()}}}for(const p of pts){cx.beginPath();cx.fillStyle=`rgba(${p.c},.5)`;cx.arc(p.x,p.y,p.r,0,Math.PI*2);cx.fill()}requestAnimationFrame(dr)}window.addEventListener('resize',()=>{rs();ip()},{passive:true});window.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY},{passive:true});window.addEventListener('mouseout',()=>{mx=my=-999},{passive:true});rs();ip();dr()}}
+    // Neural-network background: layered nodes, faint synapses, travelling signals
+    {const cvs=document.getElementById('bg-canvas');if(cvs&&!rm){const cx=cvs.getContext('2d');const IC='124,108,255',TC='52,214,196';let W,H,cols,nodes,edges,signals,last=0;
+      function build(){W=cvs.width=innerWidth;H=cvs.height=innerHeight;const L=W<600?4:5;nodes=[];edges=[];cols=[];const mX=W*0.08,uW=W-mX*2,mY=H*0.12,uH=H-mY*2;for(let i=0;i<L;i++){const x=mX+(L>1?uW*(i/(L-1)):uW/2);const n=4+Math.floor(Math.random()*3);const layer=[];for(let j=0;j<n;j++){layer.push({x,baseY:mY+uH*((j+0.5)/n),y:0,amp:12+Math.random()*24,ph:Math.random()*6.28,sp:0.0005+Math.random()*0.0009,r:1.3+Math.random()*1.7,c:Math.random()>0.4?IC:TC})}cols.push(layer);nodes.push(...layer)}for(let i=0;i<cols.length-1;i++)for(const a of cols[i])for(const b of cols[i+1])edges.push([a,b]);signals=[]}
+      function spawn(){const path=cols.map(l=>l[Math.floor(Math.random()*l.length)]);signals.push({path,seg:0,p:0,sp:0.012+Math.random()*0.012,c:Math.random()>0.5?TC:IC})}
+      function draw(ts){const t=ts||0;cx.clearRect(0,0,W,H);for(const n of nodes)n.y=n.baseY+Math.sin(t*n.sp+n.ph)*n.amp;cx.lineWidth=1;for(const e of edges){cx.strokeStyle=`rgba(${e[0].c},0.07)`;cx.beginPath();cx.moveTo(e[0].x,e[0].y);cx.lineTo(e[1].x,e[1].y);cx.stroke()}for(const n of nodes){cx.beginPath();cx.fillStyle=`rgba(${n.c},0.5)`;cx.arc(n.x,n.y,n.r,0,6.2832);cx.fill()}for(let i=signals.length-1;i>=0;i--){const s=signals[i],a=s.path[s.seg],b=s.path[s.seg+1];if(!b){signals.splice(i,1);continue}s.p+=s.sp;const x=a.x+(b.x-a.x)*s.p,y=a.y+(b.y-a.y)*s.p;cx.strokeStyle=`rgba(${s.c},0.4)`;cx.lineWidth=1.4;cx.beginPath();cx.moveTo(a.x,a.y);cx.lineTo(x,y);cx.stroke();cx.beginPath();cx.fillStyle=`rgba(${s.c},0.95)`;cx.arc(x,y,2.4,0,6.2832);cx.fill();if(s.p>=1){s.seg++;s.p=0}}if(t-last>850&&signals.length<5){last=t;spawn()}requestAnimationFrame(draw)}
+      build();spawn();addEventListener('resize',build,{passive:true});requestAnimationFrame(draw)}}
 
     const nav=document.getElementById('nav');
     const toggle=document.getElementById('navToggle');
