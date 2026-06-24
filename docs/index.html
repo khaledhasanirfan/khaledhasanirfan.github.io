@@ -30,10 +30,15 @@
     /* Nav */
     .nav{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(10,14,25,.6);backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:border-color .3s var(--ease),background .3s var(--ease)}
     .nav.scrolled{background:rgba(10,14,25,.88);border-bottom-color:var(--border)}
-    .nav-inner{display:flex;align-items:center;justify-content:space-between;height:68px}
-    .brand{display:flex;align-items:center;gap:12px;font-family:var(--font-display);font-weight:600}
+    .nav-inner{display:flex;align-items:center;gap:22px;height:68px}
+    .brand{display:flex;align-items:center;gap:12px;font-family:var(--font-display);font-weight:600;margin-right:auto}
     .brand-mark{display:grid;place-items:center;width:36px;height:36px;border-radius:9px;font-size:14px;font-weight:700;color:#0a0e19;background:linear-gradient(135deg,var(--indigo),var(--teal))}
     .brand-name{font-size:16px}
+    .nav-social{display:flex;align-items:center;gap:14px}
+    .nav-social a{display:grid;place-items:center;color:var(--muted);transition:color .2s var(--ease),transform .2s var(--ease)}
+    .nav-social a:hover{color:var(--indigo-soft);transform:translateY(-2px)}
+    .nav-social svg{width:18px;height:18px;fill:currentColor;display:block}
+    .nav-social.in-menu{display:none}
     .nav-links{display:flex;gap:22px}
     .nav-links a{font-size:14.5px;color:var(--muted);position:relative;transition:color .2s var(--ease)}
     .nav-links a::after{content:'';position:absolute;left:0;bottom:-6px;width:0;height:2px;background:var(--indigo);transition:width .25s var(--ease)}
@@ -241,6 +246,9 @@
       .nav-links{position:fixed;inset:68px 0 auto 0;flex-direction:column;gap:0;background:rgba(10,14,25,.97);border-bottom:1px solid var(--border);padding:8px 28px 20px;transform:translateY(-150%);transition:transform .35s var(--ease)}
       .nav-links.open{transform:translateY(0)}
       .nav-links a{padding:14px 0;border-bottom:1px solid var(--border)}
+      .nav-social.in-bar{display:none}
+      .nav-social.in-menu{display:flex;gap:24px;padding:16px 0 4px}
+      .nav-social.in-menu svg{width:22px;height:22px}
       .nav-toggle{display:flex}
       .about-grid,.contact-layout{grid-template-columns:1fr;gap:32px}
       .section{padding:72px 0}
@@ -274,7 +282,7 @@
 
   <header class="nav" id="nav">
     <div class="nav-inner container">
-      <a class="brand" href="#hero" aria-label="Personal Portfolio, home">
+      <a class="brand" href="#hero" aria-label="Khaled Hasan, home">
         <span class="brand-mark" aria-hidden="true">
           <svg viewBox="0 0 32 32" width="20" height="20">
             <g stroke="#0a0e19" stroke-width="2.2" fill="#0a0e19" stroke-linejoin="round">
@@ -287,7 +295,7 @@
             </g>
           </svg>
         </span>
-        <span class="brand-name">Personal Portfolio</span>
+        <span class="brand-name">Khaled Hasan</span>
       </a>
       <nav class="nav-links" aria-label="Primary">
         <a href="#about">About</a>
@@ -299,7 +307,19 @@
         <a href="#teaching">Teaching</a>
         <a href="#honors">Honors</a>
         <a href="#contact">Contact</a>
+        <div class="nav-social in-menu">
+          <a href="https://scholar.google.com/citations?user=SQYAqu8AAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3zM5 13.18v3.5L12 20l7-3.32v-3.5L12 16l-7-2.82z"/></svg></a>
+          <a href="https://github.com/khaledhasanirfan" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2C6 21 5.3 19 5.3 19c-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 1.7 2.6 1.2 3.2.9.1-.7.4-1.2.7-1.5-2.5-.3-5.1-1.3-5.1-5.6 0-1.2.4-2.2 1.1-3-.1-.3-.5-1.4.1-2.9 0 0 .9-.3 3 1.1.9-.2 1.8-.4 2.7-.4.9 0 1.8.1 2.7.4 2.1-1.4 3-1.1 3-1.1.6 1.5.2 2.6.1 2.9.7.8 1.1 1.8 1.1 3 0 4.3-2.6 5.3-5.1 5.6.4.3.8 1 .8 2.1v3.1c0 .3.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/></svg></a>
+          <a href="https://www.linkedin.com/in/khaledhasan7/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg></a>
+          <a href="https://www.facebook.com/khaled.hasan.irfan/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.69.24 2.69.24v2.97h-1.52c-1.49 0-1.96.93-1.96 1.89v2.25h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07z"/></svg></a>
+        </div>
       </nav>
+      <div class="nav-social in-bar">
+        <a href="https://scholar.google.com/citations?user=SQYAqu8AAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3zM5 13.18v3.5L12 20l7-3.32v-3.5L12 16l-7-2.82z"/></svg></a>
+        <a href="https://github.com/khaledhasanirfan" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2C6 21 5.3 19 5.3 19c-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 1.7 2.6 1.2 3.2.9.1-.7.4-1.2.7-1.5-2.5-.3-5.1-1.3-5.1-5.6 0-1.2.4-2.2 1.1-3-.1-.3-.5-1.4.1-2.9 0 0 .9-.3 3 1.1.9-.2 1.8-.4 2.7-.4.9 0 1.8.1 2.7.4 2.1-1.4 3-1.1 3-1.1.6 1.5.2 2.6.1 2.9.7.8 1.1 1.8 1.1 3 0 4.3-2.6 5.3-5.1 5.6.4.3.8 1 .8 2.1v3.1c0 .3.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/></svg></a>
+        <a href="https://www.linkedin.com/in/khaledhasan7/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg></a>
+        <a href="https://www.facebook.com/khaled.hasan.irfan/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.69.24 2.69.24v2.97h-1.52c-1.49 0-1.96.93-1.96 1.89v2.25h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07z"/></svg></a>
+      </div>
       <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
@@ -343,7 +363,7 @@
           <p class="hero-intro reveal">I am a Computer Science graduate and a Lecturer in the Department of CSE at MIST. Right now I work on trustworthy and explainable AI and human-AI interaction. My goal is to build AI systems that are reliable, interpretable, and genuinely useful to people.</p>
           <div class="hero-cta reveal">
             <a class="btn btn-primary" href="#research">View Research</a>
-            <a class="btn btn-ghost" href="Khaled_Hasan_Irfan_CV_Version_2_0.pdf" download="Khaled_Hasan_Irfan_CV.pdf">Download CV</a>
+            <a class="btn btn-ghost" href="https://drive.google.com/uc?export=download&amp;id=1KA6lZaXtIyHms0xz034VGDt19O5tNeCY" target="_blank" rel="noopener">Download CV</a>
             <a class="btn btn-ghost" href="#contact">Contact Me</a>
           </div>
         </div>
@@ -741,6 +761,7 @@
               <li><span class="contact-key">Location</span><span>Mirpur, Dhaka-1216, Bangladesh</span></li>
             </ul>
             <div class="social-row">
+              <a href="https://scholar.google.com/citations?user=SQYAqu8AAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar" class="social-link">Google Scholar</a>
               <a href="https://github.com/khaledhasanirfan" target="_blank" rel="noopener" aria-label="GitHub" class="social-link">GitHub</a>
               <a href="https://www.linkedin.com/in/khaledhasan7/" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-link">LinkedIn</a>
               <a href="https://www.facebook.com/khaled.hasan.irfan/" target="_blank" rel="noopener" aria-label="Facebook" class="social-link">Facebook</a>
@@ -785,7 +806,7 @@
     const rm=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     // Neural-network background: layered nodes, faint synapses, travelling signals
-    {const cvs=document.getElementById('bg-canvas');if(cvs&&!rm){const cx=cvs.getContext('2d');const IC='124,108,255',TC='52,214,196';let W,H,cols,nodes,edges,signals,last=0;
+    {const cvs=document.getElementById('bg-canvas');if(cvs){const cx=cvs.getContext('2d');const IC='124,108,255',TC='52,214,196';let W,H,cols,nodes,edges,signals,last=0;
       function build(){W=cvs.width=innerWidth;H=cvs.height=innerHeight;const L=W<600?4:5;nodes=[];edges=[];cols=[];const mX=W*0.08,uW=W-mX*2,mY=H*0.12,uH=H-mY*2;for(let i=0;i<L;i++){const x=mX+(L>1?uW*(i/(L-1)):uW/2);const n=4+Math.floor(Math.random()*3);const layer=[];for(let j=0;j<n;j++){layer.push({x,baseY:mY+uH*((j+0.5)/n),y:0,amp:12+Math.random()*24,ph:Math.random()*6.28,sp:0.0005+Math.random()*0.0009,r:1.3+Math.random()*1.7,c:Math.random()>0.4?IC:TC})}cols.push(layer);nodes.push(...layer)}for(let i=0;i<cols.length-1;i++)for(const a of cols[i])for(const b of cols[i+1])edges.push([a,b]);signals=[]}
       function spawn(){const path=cols.map(l=>l[Math.floor(Math.random()*l.length)]);signals.push({path,seg:0,p:0,sp:0.012+Math.random()*0.012,c:Math.random()>0.5?TC:IC})}
       function draw(ts){const t=ts||0;cx.clearRect(0,0,W,H);for(const n of nodes)n.y=n.baseY+Math.sin(t*n.sp+n.ph)*n.amp;cx.lineWidth=1;for(const e of edges){cx.strokeStyle=`rgba(${e[0].c},0.07)`;cx.beginPath();cx.moveTo(e[0].x,e[0].y);cx.lineTo(e[1].x,e[1].y);cx.stroke()}for(const n of nodes){cx.beginPath();cx.fillStyle=`rgba(${n.c},0.5)`;cx.arc(n.x,n.y,n.r,0,6.2832);cx.fill()}for(let i=signals.length-1;i>=0;i--){const s=signals[i],a=s.path[s.seg],b=s.path[s.seg+1];if(!b){signals.splice(i,1);continue}s.p+=s.sp;const x=a.x+(b.x-a.x)*s.p,y=a.y+(b.y-a.y)*s.p;cx.strokeStyle=`rgba(${s.c},0.4)`;cx.lineWidth=1.4;cx.beginPath();cx.moveTo(a.x,a.y);cx.lineTo(x,y);cx.stroke();cx.beginPath();cx.fillStyle=`rgba(${s.c},0.95)`;cx.arc(x,y,2.4,0,6.2832);cx.fill();if(s.p>=1){s.seg++;s.p=0}}if(t-last>850&&signals.length<5){last=t;spawn()}requestAnimationFrame(draw)}
