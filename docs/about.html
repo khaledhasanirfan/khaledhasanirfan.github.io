@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Khaled Hasan</title>
+  <meta name="description" content="About Khaled Hasan, Lecturer in CSE at MIST." />
+  <meta name="author" content="Khaled Hasan" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><path fill=%22%23c9f24e%22 d=%22M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z%22/></svg>" />
+  <script>try{document.documentElement.dataset.theme=localStorage.getItem('theme')||'dark'}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Space+Grotesk:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <header class="nav">
+    <div class="nav-in">
+      <a class="brand" href="index.html" aria-label="Khaled Hasan, home">
+        <svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z"/></svg>
+        <span class="b1">Khaled</span><span class="b2">Hasan</span>
+      </a>
+      <nav class="links" aria-label="Primary"><a href="about.html" class="here">About</a><a href="experience.html">Experience</a><a href="research.html">Research</a><a href="publications.html">Publications</a><a href="projects.html">Projects</a><a href="education.html">Education</a><a href="teaching.html">Teaching</a><a href="honors.html">Honors</a><a href="contact.html">Contact</a></nav>
+      <label class="tswitch" aria-label="Toggle light and dark theme"><input type="checkbox" id="themeToggle" /><span class="track"><span class="knob"></span></span></label>
+      <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+  <main class="page">
+    <div class="wrap">
+      <header class="page-head rv"><span class="crumb">01 &mdash; About</span><h1>Hello, I&rsquo;m <em>Khaled.</em></h1></header>
+      <div class="cgrid">
+        <div class="rv">
+          <p>I&rsquo;m a Computer Science lecturer and researcher developing <b>human-centered, trustworthy AI</b>. I pair machine learning with large language and vision-language models and explainable AI, and I evaluate these systems with rigorous human-centered methods.</p>
+          <p style="color:var(--muted)">The aim is simple: make real-world decision-support and interactive systems more reliable, interpretable and usable. My interests run across adaptive user interfaces, AI for health, and edge intelligence.</p>
+          <p style="color:var(--muted)">I finished my B.Sc. in CSE at MIST and joined as a Lecturer in April 2024, where I teach and supervise undergraduate research and capstone theses &mdash; several of which have led to peer-reviewed publications.</p>
+          <div class="subhead">Open to collaboration</div>
+          <p style="color:var(--muted)">If you&rsquo;d like to work together, or just chat about research:</p>
+          <div class="cta-row"><a class="btn solid" href="mailto:khaled@cse.mist.ac.bd">khaled@cse.mist.ac.bd</a><a class="btn ghost" href="mailto:khaledirfan7@gmail.com">khaledirfan7@gmail.com</a></div>
+        </div>
+        <div class="pfloat rv" style="align-self:start">
+          <img class="ph" src="khaled.jpeg" alt="Khaled Hasan" />
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="foot">
+    <div class="wrap">
+      <p class="big rv">Have an idea? <em>Let&rsquo;s talk</em> &rarr; <a href="mailto:khaled@cse.mist.ac.bd">khaled@cse.mist.ac.bd</a></p>
+      <div class="foot-row">
+        <span>&copy; 2026 Khaled Hasan &mdash; Lecturer, CSE, MIST, Dhaka</span>
+        <div class="soc"><a href="https://scholar.google.com/citations?user=SQYAqu8AAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><svg viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3zM5 13.18v3.5L12 20l7-3.32v-3.5L12 16l-7-2.82z"/></svg></a><a href="https://github.com/khaledhasanirfan" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2C6 21 5.3 19 5.3 19c-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 1.7 2.6 1.2 3.2.9.1-.7.4-1.2.7-1.5-2.5-.3-5.1-1.3-5.1-5.6 0-1.2.4-2.2 1.1-3-.1-.3-.5-1.4.1-2.9 0 0 .9-.3 3 1.1.9-.2 1.8-.4 2.7-.4.9 0 1.8.1 2.7.4 2.1-1.4 3-1.1 3-1.1.6 1.5.2 2.6.1 2.9.7.8 1.1 1.8 1.1 3 0 4.3-2.6 5.3-5.1 5.6.4.3.8 1 .8 2.1v3.1c0 .3.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/></svg></a><a href="https://www.linkedin.com/in/khaledhasan7/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg></a><a href="https://www.facebook.com/khaled.hasan.irfan/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.69.24 2.69.24v2.97h-1.52c-1.49 0-1.96.93-1.96 1.89v2.25h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07z"/></svg></a></div>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>
