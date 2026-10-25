@@ -57,7 +57,7 @@ Content is in the HTML before JavaScript runs. JavaScript only adds search/filte
 
 ## Pages
 
-Home, Research, Publications, Projects, Teaching, About, CV, Contact, News, Writing, and Life & Travels. Individual essays and photo stories are generated when entries are marked `published`. Older Education, Experience, and Honors URLs remain useful as signposts to the corresponding About sections. A 404 page, sitemap, feeds, and sensible social/academic metadata are included.
+Home, Research, Publications, Projects, Teaching, About, Contact, News, Writing, and Life & Travels. Individual essays and photo stories are generated when entries are marked `published`. Older Education, Experience, and Honors URLs remain useful as signposts to the corresponding About sections. The homepage provides the direct CV download; the old `cv.html` URL redirects there. A 404 page, sitemap, feeds, and sensible social/academic metadata are included.
 
 ## Deploy after approval
 
