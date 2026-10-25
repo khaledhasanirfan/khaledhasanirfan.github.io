@@ -1,0 +1,190 @@
+{
+  "education": [
+    {
+      "period": "2020–2024",
+      "title": "B.Sc. in Computer Science and Engineering",
+      "place": "Military Institute of Science and Technology, Bangladesh",
+      "text": "Graduated March 2024. CGPA 3.83/4.00; ranked 4th of 88. My undergraduate thesis explored machine-learning-driven adaptive mobile-banking interfaces.",
+      "detail": "Advisors: Iyolita Islam and Dr. Muhammad Nazrul Islam."
+    }
+  ],
+  "experience": [
+    {
+      "period": "Apr 2024–present",
+      "title": "Lecturer, Department of CSE",
+      "place": "MIST, Dhaka",
+      "text": "Teaching programming and computer systems courses; co-supervising undergraduate research, theses, and applied computing projects."
+    },
+    {
+      "period": "Nov 2025–present",
+      "title": "Research Collaborator, Reliable AI and Intelligent Systems",
+      "place": "MIST, Dhaka",
+      "text": "Research across LLM/VLM systems, multimodal agents, trustworthy machine learning, evaluation, and failure analysis."
+    },
+    {
+      "period": "Mar 2026–present",
+      "title": "Co-Investigator, Neuroadaptive AI",
+      "place": "MIST Research Grant · PI: Dr. T. M. Shahriar Sazzad",
+      "text": "Transformer-based learning over 32-channel EEG for workload, vigilance, and affective-state modeling."
+    }
+  ],
+  "service": [
+    {
+      "period": "May 2025–present",
+      "title": "Project Coordinator",
+      "text": "Mobile and App Development Project for the Bangladesh Army, MIST."
+    },
+    {
+      "period": "Jul 2024–present",
+      "title": "Moderator, MIST Cyber Security Club",
+      "text": "Workshops, CTF activities, student events, and technical operations."
+    },
+    {
+      "period": "Feb 2023–Mar 2024",
+      "title": "Executive Director, MIST Computer Club",
+      "text": "Programming competitions, technical seminars, and student computing initiatives."
+    },
+    {
+      "period": "Mar 2020–Oct 2023",
+      "title": "Software and Communication Team, MIST Mars Rover Society",
+      "text": "Rover software, communication, and autonomous-control activities."
+    }
+  ],
+  "awards": [
+    {
+      "year": "2025",
+      "title": "Top 2% Paper Award",
+      "detail": "IEEE ICCIT · agricultural mobile-application usability paper",
+      "url": "https://drive.google.com/file/d/1GNbvG1YLTd528E13f26xbuoeItwXDaAz/view"
+    },
+    {
+      "year": "2025",
+      "title": "Selected project demonstration",
+      "detail": "BEAR Summit, National Semiconductor Symposium · Team Lead"
+    },
+    {
+      "year": "2020–2024",
+      "title": "Dean’s List of Honor",
+      "detail": "MIST · all four academic years"
+    },
+    {
+      "year": "2020–2023",
+      "title": "Commandant’s List of Honor",
+      "detail": "MIST · 2020, 2022, and 2023"
+    },
+    {
+      "year": "2023",
+      "title": "Champion, Research-Based Poster Presentation",
+      "detail": "BUP IEEE Branch Fest · Team Lead, Light Canvas"
+    },
+    {
+      "year": "2023",
+      "title": "Top 10 teams, Inter-University Hackathon",
+      "detail": "BUET CSE Fest"
+    },
+    {
+      "year": "2023",
+      "title": "Top 20 teams, WIEHACK 4.0 final round",
+      "detail": "IEEE Women in Engineering Bangladesh"
+    },
+    {
+      "year": "2022",
+      "title": "Second runner-up, Anatolian Rover Challenge",
+      "detail": "Team Mongol Barota · Türkiye"
+    },
+    {
+      "year": "2021",
+      "title": "Champion, University Rover Challenge",
+      "detail": "Team Mongol Barota · The Mars Society, USA"
+    }
+  ],
+  "courses": [
+    {
+      "category": "Programming & software",
+      "items": [
+        [
+          "CSE-105",
+          "Structured Programming Language"
+        ],
+        [
+          "CSE-106",
+          "Structured Programming Sessional"
+        ],
+        [
+          "CSE-110",
+          "Computer Programming Laboratory"
+        ],
+        [
+          "CSE-205",
+          "Object-Oriented Programming"
+        ],
+        [
+          "CSE-206",
+          "OOP Sessional I"
+        ],
+        [
+          "CSE-220",
+          "OOP Sessional II"
+        ],
+        [
+          "CSE-216",
+          "Data Structures & Algorithms Sessional II"
+        ],
+        [
+          "CSE-281",
+          "Computer Programming"
+        ],
+        [
+          "CSE-282",
+          "Computer Programming Sessional"
+        ],
+        [
+          "CSE-291",
+          "Computer Programming Techniques"
+        ],
+        [
+          "CSE-292",
+          "Programming Techniques Sessional"
+        ]
+      ]
+    },
+    {
+      "category": "Systems & architecture",
+      "items": [
+        [
+          "CSE-104",
+          "Digital Logic Design Laboratory"
+        ],
+        [
+          "CSE-213",
+          "Computer Architecture"
+        ],
+        [
+          "CSE-307",
+          "Operating System"
+        ],
+        [
+          "CSE-308",
+          "Operating System Sessional"
+        ],
+        [
+          "CSE-310",
+          "Computer Networking Sessional"
+        ]
+      ]
+    },
+    {
+      "category": "Supervision & mentoring",
+      "items": [
+        [
+          "CSE-350",
+          "Industrial Training · co-supervision"
+        ],
+        [
+          "CSE-400",
+          "Undergraduate Thesis · co-supervision"
+        ]
+      ]
+    }
+  ]
+}

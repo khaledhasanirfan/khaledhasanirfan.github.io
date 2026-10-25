@@ -1,0 +1,50 @@
+[
+  {
+    "name": "multiagent-concept",
+    "prompt": "Use case: stylized-concept. Asset type: landscape concept illustration for a restrained academic portfolio project, approximately 3:2. Style: elegant editorial ink and soft gouache, warm ivory paper, muted teal and refined indigo with small terracotta accents, precise but human, plenty of negative space, gentle grain. No words, letters, numerals, metrics, charts of experimental results, logos, watermarks, faces or photorealistic lab evidence. This is an illustrative research concept, never an actual screenshot or experimental result. Subject: a coordinated network of four specialized AI agents represented by distinct small translucent geometric modules arranged around a shared central evidence notebook, with subtle connected routes and one verification loop. Suggest multimodal evidence with small abstract image, document and signal tiles. Calm, coherent spatial composition, subtle dimensional perspective.",
+    "asset": "docs/assets/images/multiagent-concept.webp",
+    "kind": "AI-generated concept illustration",
+    "tool": "Built-in image_gen",
+    "originalOutput": "exec-c8e75206-6793-4596-aaff-8e4ffc4d3ed8.png"
+  },
+  {
+    "name": "llm-trust-concept",
+    "prompt": "Use case: stylized-concept. Asset type: landscape concept illustration for a restrained academic portfolio project, approximately 3:2. Style: elegant editorial ink and soft gouache, warm ivory paper, muted teal and refined indigo with small terracotta accents, precise but human, plenty of negative space, gentle grain. No words, letters, numerals, metrics, charts of experimental results, logos, watermarks, faces or photorealistic lab evidence. This is an illustrative research concept, never an actual screenshot or experimental result. Subject: a human hand examining two different abstract language-model answer sheets with a magnifying lens and a restrained balance motif, expressing comparison, uncertainty and calibrated trust. Use small abstract typography-like strokes rather than readable text. No checkmarks claiming success, no bars or percentages.",
+    "asset": "docs/assets/images/llm-trust-concept.webp",
+    "kind": "AI-generated concept illustration",
+    "tool": "Built-in image_gen",
+    "originalOutput": "exec-5078db4a-b2a1-4c2b-9da5-635e20670a1e.png"
+  },
+  {
+    "name": "skin-xai-concept",
+    "prompt": "Use case: stylized-concept. Asset type: landscape concept illustration for a restrained academic portfolio project, approximately 3:2. Style: elegant editorial ink and soft gouache, warm ivory paper, muted teal and refined indigo with small terracotta accents, precise but human, plenty of negative space, gentle grain. No words, letters, numerals, metrics, charts of experimental results, logos, watermarks, faces or photorealistic lab evidence. This is an illustrative research concept, never an actual screenshot or experimental result. Subject: a clearly stylized conceptual medical-vision workspace: a neutral tan skin-patch sample tile with a small abstract lesion shape beside a transformer-inspired layered grid and soft transparent attention overlay. A lens and minimal uncertainty motif connect observation to interpretation. No clinical claims, no identifiable patient, no diagnosis text, no real microscopy, no frightening medical imagery.",
+    "asset": "docs/assets/images/skin-xai-concept.webp",
+    "kind": "AI-generated concept illustration",
+    "tool": "Built-in image_gen",
+    "originalOutput": "exec-b5336610-c434-4004-972d-f21eec9e8c95.png"
+  },
+  {
+    "name": "plsem-concept",
+    "prompt": "Use case: stylized-concept. Asset type: landscape concept illustration for a restrained academic portfolio project, approximately 3:2. Style: elegant editorial ink and soft gouache, warm ivory paper, muted teal and refined indigo with small terracotta accents, precise but human, plenty of negative space, gentle grain. No words, letters, numerals, metrics, charts of experimental results, logos, watermarks, faces or photorealistic lab evidence. This is an illustrative research concept, never an actual screenshot or experimental result. Subject: a researcher’s abstract analysis workspace with a tidy path model of connected circles and rectangular variables, paper sheets and a small understated computation module. Clear connected relationships, no numerical coefficients, no fake results, no identifiable software interface. Elegant tool-building concept.",
+    "asset": "docs/assets/images/plsem-concept.webp",
+    "kind": "AI-generated concept illustration",
+    "tool": "Built-in image_gen",
+    "originalOutput": "exec-34318a6f-42b8-43cf-966c-f05c98f8aeff.png"
+  },
+  {
+    "name": "delivery-concept",
+    "prompt": "Use case: stylized-concept. Asset type: wide editorial concept illustration for a restrained academic research portfolio. Medium: elegant ink and soft gouache on warm ivory paper, refined indigo and muted teal with small terracotta accents, subtle texture, airy and carefully composed. Approximately landscape 3:2. No readable text, numbers, logos, results charts, watermarks, faces, photorealistic experimental evidence. No glowing neon colors or dark backgrounds. Subject: a modest four-wheeled Arduino-inspired delivery robot carrying one small cardboard box, following a dark curved floor line. Show a small front line-sensing module and simple exposed mechanical structure. Clearly an illustrated concept rather than a photograph or an advanced autonomous research robot. Natural three-quarter view.",
+    "asset": "docs/assets/images/delivery-concept.webp",
+    "kind": "AI-generated concept illustration",
+    "tool": "Built-in image_gen",
+    "originalOutput": "exec-09070a00-77d6-485e-94af-2ac269a8d77d.png"
+  },
+  {
+    "name": "adaptive-ui-concept",
+    "prompt": "Use case: stylized-concept. Asset type: wide editorial concept illustration for a restrained academic research portfolio. Medium: elegant ink and soft gouache on warm ivory paper, refined indigo and muted teal with small terracotta accents, subtle texture, airy and carefully composed. Approximately landscape 3:2. No readable text, numbers, logos, results charts, watermarks, faces, photorealistic experimental evidence. No glowing neon colors or dark backgrounds. Subject: two tasteful simplified mobile-phone interfaces, with different arrangements of the same plain interface modules, connected by a small set of subtle interaction-trace marks and an abstract learning module. Express adaptation to user behavior without implying any specific published interface or performance result. No actual banking balances, branding or text.",
+    "asset": "docs/assets/images/adaptive-ui-concept.webp",
+    "kind": "AI-generated concept illustration",
+    "tool": "Built-in image_gen",
+    "originalOutput": "exec-f239532d-a4d2-402c-b094-1d8e4dc341a5.png"
+  }
+]

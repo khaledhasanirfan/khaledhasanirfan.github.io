@@ -1,0 +1,7 @@
+{
+  "source": "docs/assets/images/portrait-hero.jpg",
+  "editedAsset": "docs/assets/images/portrait-cutout.webp",
+  "tool": "Built-in image_gen",
+  "prompt": "Use case: background-extraction. Edit target: the supplied real portrait photograph of Khaled Hasan. Remove ONLY the beach, sea, sky, sand and all background, creating a clean cutout with a genuinely transparent alpha background. Preserve the exact person's identity, face, expression, hair, skin tone, beard, body shape, pose, jacket, green T-shirt and visible clothing graphics. Do not redraw, beautify, smooth, age, stylize or change the face. Keep the photographic appearance and natural edges, especially hair. Crop unused transparent space above the hair so that the person occupies most of the canvas, preserving the entire visible body to the bottom of the original photograph. Do not invent lower-body content. No frame, background, shadow, glow, pedestal or added objects. Intended use: an authentic background-free portrait on a dark academic website; depth effects will be applied in CSS, not by altering the person's appearance.",
+  "originalOutput": "exec-6cdceb8a-fe30-4fdb-a0a5-17906aa24d7e.png"
+}

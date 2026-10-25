@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://khaledhasanirfan.github.io/sitemap.xml

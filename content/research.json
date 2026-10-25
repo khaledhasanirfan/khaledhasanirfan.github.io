@@ -1,0 +1,147 @@
+{
+  "areas": [
+    {
+      "id": "llm-agents",
+      "title": "LLMs & agentic AI",
+      "label": "Primary focus",
+      "summary": "Multimodal reasoning, agent coordination, and verification in language and vision–language systems.",
+      "motivation": "How can language models and specialized agents share evidence and check one another without amplifying errors?",
+      "questions": [
+        "How does unreliable intermediate information propagate across an agent workflow?",
+        "When does cross-agent verification improve the reliability of a final decision?"
+      ],
+      "related": [
+        "job-recommendation"
+      ],
+      "projects": [
+        "multimodal-agents",
+        "llm-trust"
+      ],
+      "directions": [
+        "Multimodal agent workflows",
+        "Multilingual model reliability"
+      ]
+    },
+    {
+      "id": "human-ai",
+      "title": "Trustworthy & human-centered AI",
+      "label": "Connected area",
+      "summary": "Uncertainty, explanations, and appropriate human reliance on intelligent systems.",
+      "motivation": "A useful AI system should help people understand when to rely on its output and when to question it.",
+      "questions": [
+        "How do confidence cues and explanations influence reliance on LLMs and VLMs?",
+        "How can adaptive interfaces respond to users while remaining understandable?"
+      ],
+      "related": [
+        "adaptive-banking",
+        "agri-usability"
+      ],
+      "projects": [
+        "adaptive-banking",
+        "web3-ux",
+        "skin-lesion-xai"
+      ],
+      "directions": [
+        "Trust calibration",
+        "Explainable medical-image classification"
+      ]
+    },
+    {
+      "id": "edge-sensing",
+      "title": "Edge AI & intelligent sensing",
+      "label": "Connected area",
+      "summary": "Dependable learning under changing deployment conditions and limited resources.",
+      "motivation": "Models encounter changing environments, measurement noise, and resource constraints outside the laboratory.",
+      "questions": [
+        "How should evaluation expose generalization failures under distribution shift?",
+        "How can sensing and state estimation adapt to changes in measurement quality?"
+      ],
+      "related": [],
+      "projects": [
+        "airborne-automl",
+        "delivery-bot"
+      ],
+      "directions": [
+        "Reliable Edge AI",
+        "EEG-based neuroadaptive systems",
+        "Simulated 5G decision support",
+        "AI security and privacy in networked systems (broader interest)"
+      ]
+    },
+    {
+      "id": "vision-robotics",
+      "title": "Computer vision & robotics",
+      "label": "Engineering foundation",
+      "summary": "Visual perception, embedded systems, and interactive tools that connect software with the physical world.",
+      "motivation": "Building interactive and autonomous systems connects learning algorithms with the practical constraints of sensing, communication, and control.",
+      "questions": [
+        "How can perception support useful real-time interaction?",
+        "How can embedded intelligence remain dependable when sensing conditions change?"
+      ],
+      "related": [
+        "light-canvas"
+      ],
+      "projects": [
+        "light-canvas",
+        "delivery-bot"
+      ],
+      "directions": [
+        "Visual interaction",
+        "Learning-assisted state estimation"
+      ]
+    }
+  ],
+  "ongoing": [
+    {
+      "title": "Multimodal agentic AI systems",
+      "area": "llm-agents",
+      "status": "Work in progress",
+      "text": "Developing a LangGraph-based framework in which specialized agents process multimodal evidence, exchange context, coordinate reasoning, and perform cross-agent verification. The study examines information sharing, intermediate failures, and error propagation.",
+      "image": "assets/images/multiagent-concept.webp",
+      "imageAlt": "AI-generated concept illustration of specialized agent modules sharing multimodal evidence through a central notebook",
+      "imageCaption": "AI-generated concept illustration; not the implemented system architecture or an experimental result."
+    },
+    {
+      "title": "Trust calibration in LLMs and VLMs",
+      "area": "human-ai",
+      "status": "Work in progress",
+      "text": "Investigating how model confidence, uncertainty, explanations, and high-confidence errors shape appropriate human reliance on language and multimodal AI.",
+      "image": "assets/images/llm-trust-concept.webp",
+      "imageAlt": "AI-generated concept illustration of two model answer sheets examined through a lens beside a balance",
+      "imageCaption": "AI-generated concept illustration; not a user-study finding or a model comparison result."
+    },
+    {
+      "title": "Multilingual prompting and tokenization",
+      "area": "llm-agents",
+      "status": "Work in progress",
+      "text": "Studying Bangla, Banglish, and English prompting across models to examine response quality, hallucination, confidence, and reliability."
+    },
+    {
+      "title": "Reliable Edge AI under distribution shift",
+      "area": "edge-sensing",
+      "status": "Work in progress",
+      "text": "Investigating robust evaluation and uncertainty-aware adaptation as sensing conditions, deployment environments, and input distributions change."
+    },
+    {
+      "title": "Neuroadaptive AI from 32-channel EEG",
+      "area": "edge-sensing",
+      "status": "Work in progress",
+      "text": "Co-investigator on a MIST research grant led by Dr. T. M. Shahriar Sazzad, developing a self-supervised Transformer pipeline for cognitive workload, vigilance, and affective-state modeling with interpretable closed-loop feedback."
+    },
+    {
+      "title": "Explainable skin-lesion classification",
+      "area": "human-ai",
+      "status": "Work in progress",
+      "text": "Developing a DINO-ViT framework on HAM10000 with uncertainty quantification, visual explanations, fairness analysis, and clinician-centered evaluation.",
+      "image": "assets/images/skin-xai-concept.webp",
+      "imageAlt": "AI-generated concept illustration of a skin-image tile, visual transformer layers, and an explanation map",
+      "imageCaption": "AI-generated concept illustration; not a patient image, model output, or clinical result."
+    },
+    {
+      "title": "Network decision support and adaptive estimation",
+      "area": "edge-sensing",
+      "status": "Work in progress",
+      "text": "Studying AI-assisted decisions in simulated 5G networks and learning-assisted state estimation under time-varying sensing noise. These are ongoing investigations, with no completed findings claimed here."
+    }
+  ]
+}
