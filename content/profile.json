@@ -1,0 +1,45 @@
+{
+  "name": "Khaled Hasan",
+  "role": "Lecturer, Department of Computer Science and Engineering",
+  "institution": "Military Institute of Science and Technology",
+  "institutionShort": "MIST",
+  "location": "Dhaka, Bangladesh",
+  "email": "khaled@cse.mist.ac.bd",
+  "personalEmail": "khaledirfan7@gmail.com",
+  "siteUrl": "https://khaledhasanirfan.github.io",
+  "updated": "2026-10-25",
+  "cv": "assets/files/khaled-hasan-cv.pdf",
+  "portrait": "assets/images/portrait.webp",
+  "portraitAlt": "Khaled Hasan standing by the sea",
+  "portraitCaption": "A moment away from the desk.",
+  "intro": "I study how language models and intelligent agents can reason, collaborate, and remain reliable in the real world.",
+  "bio": [
+    "I am a lecturer and researcher at MIST, Bangladesh. My primary research focus is LLM/VLM systems and agentic AI, with an emphasis on multimodal reasoning, uncertainty, evaluation, and failure analysis.",
+    "My work also connects human–AI interaction, explainable machine learning, and reliable edge and sensing systems. I enjoy building systems, examining where they fail, and learning across these connected areas."
+  ],
+  "opportunity": "I am seeking fully funded Ph.D. opportunities for Fall 2027 in reliable AI systems, LLMs, and agentic AI.",
+  "links": {
+    "scholar": "https://scholar.google.com/citations?user=SQYAqu8AAAAJ&hl=en",
+    "github": "https://github.com/khaledhasanirfan",
+    "faculty": "https://mist.ac.bd/department/computer_science_and_engineering/faculty-members/khaled-hasan-irfan"
+  },
+  "lifeTitle": "Life & Travels",
+  "teachingPhilosophy": "I want students to connect the ideas behind a system with the choices involved in building it. In programming and systems courses, I emphasize clear reasoning, implementation, and the habit of testing assumptions. Laboratory work gives students space to experiment, debug, and explain their decisions. In research and thesis supervision, I encourage careful problem formulation, appropriate evaluation, and honest interpretation of results. My aim is to help students become independent learners who can communicate technical work clearly, ask useful questions, and recognize the limits of what their evidence supports.",
+  "researchMotivation": "My interest in robotics began with a Bluetooth-controlled Arduino car during my early undergraduate years. Seeing a physical device respond to code I had written made computing feel tangible. That experience led me toward robotics and computer vision, then toward machine learning and the questions of reliability and human use that shape my research today.",
+  "lifeIntro": "I love travelling, exploring unfamiliar places, and finding new adventures by the water. I am happiest discovering a different cuisine, sharing a good meal, or joining a game—almost any sport will do.",
+  "lifeInterests": [
+    {
+      "title": "Journeys & adventures",
+      "text": "New places, time by the sea, and the curiosity to see what is around the next corner."
+    },
+    {
+      "title": "Food & local flavors",
+      "text": "Different cuisines, local food, and the stories that come with a shared table."
+    },
+    {
+      "title": "Sports & everyday life",
+      "text": "A game with friends, a new sport to try, and small moments outside work."
+    }
+  ],
+  "portraitCutout": "assets/images/portrait-cutout.webp"
+}

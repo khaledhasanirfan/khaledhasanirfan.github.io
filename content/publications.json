@@ -1,0 +1,103 @@
+[
+  {
+    "id": "adaptive-banking",
+    "title": "Adaptive User Interface for Mobile Banking Apps: Enhancing UX through Machine Learning",
+    "authors": [
+      "Khaled Hasan",
+      "Md Rashid Ul Islam",
+      "Sheikh Easin Arafat",
+      "Iyolita Islam"
+    ],
+    "year": 2026,
+    "status": "published",
+    "type": "journal",
+    "venue": "Array",
+    "publisher": "Elsevier BV",
+    "doi": "10.1016/j.array.2026.100901",
+    "pages": "100901",
+    "volume": "30",
+    "articleNumber": "100901",
+    "summary": "A machine-learning-driven mobile-banking interface that adapts to user behavior, connecting personalization with explainability and human-centered evaluation.",
+    "selected": true,
+    "source": "https://api.crossref.org/works/10.1016/j.array.2026.100901",
+    "fulltext": "https://www.sciencedirect.com/science/article/pii/S2590005626002249"
+  },
+  {
+    "id": "light-canvas",
+    "title": "Light Canvas: An IoT-Based Interactive Virtual Drawing System for Enhancing Educational Engagement",
+    "authors": [
+      "Khaled Hasan Irfan",
+      "Maliha Zerin",
+      "Enan Abdullah Khan",
+      "Nuraia Nahrin Fahmida",
+      "Tasmiah Tamzid Anannya",
+      "Nuzhat Tabassum",
+      "Muhammad Nazrul Islam"
+    ],
+    "year": 2024,
+    "status": "published",
+    "type": "conference",
+    "venue": "Proceedings of the 3rd International Conference on Computing Advancements",
+    "publisher": "ACM",
+    "doi": "10.1145/3723178.3723192",
+    "pages": "99-106",
+    "volume": null,
+    "articleNumber": null,
+    "summary": "An interactive drawing system integrating visual tracking, sensing, and application software to support educational interaction on a flat surface.",
+    "selected": true,
+    "source": "https://api.crossref.org/works/10.1145/3723178.3723192",
+    "code": "https://github.com/khaledhasanirfan/Lightcanvas",
+    "fulltext": "https://dl.acm.org/doi/full/10.1145/3723178.3723192"
+  },
+  {
+    "id": "job-recommendation",
+    "title": "From Keywords to Context: A Comparative Analysis of Semantic (SBERT) vs Traditional Keyword-Based (Machine Learning) Matching for Job Recommendation",
+    "authors": [
+      "Khaled Hasan",
+      "Adib Hossain",
+      "Md Rashid Ul Islam",
+      "Aunindya Prosad Saha",
+      "Fahim Tazwar"
+    ],
+    "year": 2025,
+    "status": "published",
+    "type": "conference",
+    "venue": "2025 28th International Conference on Computer and Information Technology (ICCIT)",
+    "publisher": "IEEE",
+    "doi": "10.1109/ICCIT68739.2025.11491820",
+    "pages": "3836-3841",
+    "volume": null,
+    "articleNumber": null,
+    "summary": "A comparison of Sentence-BERT semantic representations and traditional keyword-based machine-learning approaches for job recommendation.",
+    "selected": true,
+    "source": "https://api.crossref.org/works/10.1109/ICCIT68739.2025.11491820",
+    "code": "https://github.com/khaledhasanirfan/NLP-Based-AI-Job-Recommendation-system",
+    "pdf": "https://ieeexplore.ieee.org/iel8/11489965/11490092/11491820.pdf"
+  },
+  {
+    "id": "agri-usability",
+    "title": "Assessing Usability of Agricultural Mobile Applications for Illiterate and Semi-Literate Farmers in Bangladesh",
+    "authors": [
+      "Md Rashid Ul Islam",
+      "Khaled Hasan",
+      "Tariq Hasan Rizu",
+      "Iyolita Islam",
+      "Muhammad Nazrul Islam"
+    ],
+    "year": 2025,
+    "status": "published",
+    "type": "conference",
+    "venue": "2025 28th International Conference on Computer and Information Technology (ICCIT)",
+    "publisher": "IEEE",
+    "doi": "10.1109/ICCIT68739.2025.11491675",
+    "pages": "4088-4093",
+    "volume": null,
+    "articleNumber": null,
+    "summary": "A usability study of agricultural mobile applications for illiterate and semi-literate farmers in Bangladesh.",
+    "selected": true,
+    "source": "https://api.crossref.org/works/10.1109/ICCIT68739.2025.11491675",
+    "award": "Top 2% Paper Award",
+    "awardUrl": "https://drive.google.com/file/d/1GNbvG1YLTd528E13f26xbuoeItwXDaAz/view",
+    "pdf": "https://ieeexplore.ieee.org/iel8/11489965/11490092/11491675.pdf"
+  }
+]

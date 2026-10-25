@@ -1,0 +1,1773 @@
+[
+  {
+    "doi": "10.1016/j.array.2026.100901",
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            5
+          ]
+        ],
+        "date-time": "2026-10-05T13:52:41Z",
+        "timestamp": 1791208361519,
+        "version": "4.1.0"
+      },
+      "reference-count": 45,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                1
+              ]
+            ],
+            "date-time": "2026-07-01T00:00:00Z",
+            "timestamp": 1782864000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                1
+              ]
+            ],
+            "date-time": "2026-07-01T00:00:00Z",
+            "timestamp": 1782864000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                13
+              ]
+            ],
+            "date-time": "2026-05-13T00:00:00Z",
+            "timestamp": 1778630400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Array"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            7
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.array.2026.100901",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            19
+          ]
+        ],
+        "date-time": "2026-05-19T16:00:05Z",
+        "timestamp": 1779206405000
+      },
+      "page": "100901",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "special_numbering": "C",
+      "title": [
+        "Adaptive User Interface for Mobile Banking Apps: Enhancing UX through Machine Learning"
+      ],
+      "prefix": "10.1016",
+      "volume": "30",
+      "author": [
+        {
+          "given": "Khaled",
+          "family": "Hasan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Md Rashid Ul",
+          "family": "Islam",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sheikh Easin",
+          "family": "Arafat",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6961-7007",
+          "authenticated-orcid": false,
+          "given": "Iyolita",
+          "family": "Islam",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.array.2026.100901_b1",
+          "series-title": "Encyclopedia of computer science",
+          "first-page": "1821",
+          "article-title": "User interface",
+          "author": "Jacob",
+          "year": "2003"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.array.2026.100901_b2",
+          "first-page": "28",
+          "article-title": "User experience: challenges and opportunities",
+          "volume": "3",
+          "author": "Allam",
+          "year": "2013",
+          "journal-title": "J Inf Syst Res Innov"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.array.2026.100901_b3",
+          "doi-asserted-by": "crossref",
+          "first-page": "1529",
+          "DOI": "10.1002/mar.21670",
+          "article-title": "Personalization in personalized marketing: Trends and ways forward",
+          "volume": "39",
+          "author": "Chandra",
+          "year": "2022",
+          "journal-title": "Psychol Mark"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b4",
+          "series-title": "Automatically personalizing user interfaces",
+          "author": "Weld",
+          "year": "2003"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b5",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.cosrev.2021.100363",
+          "article-title": "Adaptive user interfaces and universal usability through plasticity of user interface design",
+          "volume": "40",
+          "author": "Miraz",
+          "year": "2021",
+          "journal-title": "Comput Sci Rev"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.array.2026.100901_b6",
+          "doi-asserted-by": "crossref",
+          "first-page": "1044",
+          "DOI": "10.1108/IJBM-09-2015-0143",
+          "article-title": "Literature review of mobile banking and individual performance",
+          "volume": "35",
+          "author": "Tam",
+          "year": "2017",
+          "journal-title": "Int J Bank Mark"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b7",
+          "series-title": "2019 International Conference on Sustainable Technologies for Industry 4.0 (STI)",
+          "first-page": "1",
+          "article-title": "A proposed secure mobile money transfer system for SME in Bangladesh: an industry 4.0 perspective",
+          "author": "Islam",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b8",
+          "series-title": "International Conference on Design and Digital Communication",
+          "first-page": "161",
+          "article-title": "Evaluating usability of mobile financial applications used in Bangladesh",
+          "author": "Bhowmik",
+          "year": "2022"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.array.2026.100901_b9",
+          "doi-asserted-by": "crossref",
+          "first-page": "6232",
+          "DOI": "10.1108/K-03-2022-0333",
+          "article-title": "Examining the effect of consumption values on mobile banking adoption in Bangladesh: the moderating role of perceived security",
+          "volume": "52",
+          "author": "Hafez",
+          "year": "2023",
+          "journal-title": "Kybernetes"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nawaz M, Motiwalla L, Deokar AV. Adaptive user interface for a personalized mobile banking app. In: Adjunct publication of the 26th conference on user modeling, adaptation and personalization. 2018, p. 141\u20132.",
+          "DOI": "10.1145/3213586.3226209"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b11",
+          "series-title": "2022 3rd international conference on smart electronics and communication",
+          "first-page": "1023",
+          "article-title": "Design of artificial intelligence (AI) based user experience websites for E-commerce application and future of digital marketing",
+          "author": "Vinaykarthik",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b12",
+          "article-title": "A machine learning approach to the digitalization of bank customers: Evidence from random and causal forests",
+          "volume": "15",
+          "author": "Cuadros-Solas",
+          "year": "2020",
+          "journal-title": "PLoS One"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b13",
+          "unstructured": "Muhammad B, Nazir Z, Ali L, Saleem M. Usability evaluation of adaptive and personalized interface applications."
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b14",
+          "series-title": "2019 2nd international conference on innovation in engineering and technology (ICIET)",
+          "first-page": "1",
+          "article-title": "A conceptual framework for improving privacy in mobile operating systems",
+          "author": "Munim",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b15",
+          "article-title": "Cross-cultural usability evaluation of AI-based adaptive user interface for mobile applications.",
+          "volume": "44",
+          "author": "Miraz",
+          "year": "2022",
+          "journal-title": "Acta Sci: Technol"
+        },
+        {
+          "issue": "23",
+          "key": "10.1016/j.array.2026.100901_b16",
+          "doi-asserted-by": "crossref",
+          "first-page": "12245",
+          "DOI": "10.3390/app122312245",
+          "article-title": "Intelligence and usability empowerment of smartphone adaptive features",
+          "volume": "12",
+          "author": "Alghamdi",
+          "year": "2022",
+          "journal-title": "Appl Sci"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b17",
+          "series-title": "2019 moratuwa engineering research conference (mERCon)",
+          "first-page": "698",
+          "article-title": "A framework for adaptive user interface generation based on user behavioural patterns",
+          "author": "Rathnayake",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b18",
+          "series-title": "2018 IEEE 22nd international conference on computer supported cooperative work in design ((CSCWD))",
+          "first-page": "743",
+          "article-title": "Adaptive user interface optimization for multi-screen based on machine learning",
+          "author": "Tan",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b19",
+          "series-title": "2011 IEEE consumer communications and networking conference",
+          "first-page": "923",
+          "article-title": "An adaptive user interface based on spatiotemporal structure learning",
+          "author": "Lee",
+          "year": "2011"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Germanakos P, Belk M, Constantinides A, Samaras G. The PersonaWeb System: Personalizing E-Commerce Environments based on Human Factors.. In: UMAP workshops. 2015.",
+          "DOI": "10.1109/MDM.2015.58"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.array.2026.100901_b21",
+          "doi-asserted-by": "crossref",
+          "first-page": "409",
+          "DOI": "10.1109/TSMC.2013.2263128",
+          "article-title": "A trust-aware system for personalized user recommendations in social networks",
+          "volume": "44",
+          "author": "Eirinaki",
+          "year": "2014",
+          "journal-title": "IEEE Trans Syst Man Cybern: Syst"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b22",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1007/s12193-018-0258-2",
+          "article-title": "Model-based adaptive user interface based on context and user experience evaluation",
+          "volume": "12",
+          "author": "Hussain",
+          "year": "2018",
+          "journal-title": "J Multimodal User Interfaces"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b23",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.infsof.2022.106841",
+          "article-title": "An evaluation of the effectiveness of personalization and self-adaptation for e-health apps",
+          "volume": "146",
+          "author": "Grua",
+          "year": "2022",
+          "journal-title": "Inf Softw Technol",
+          "ISSN": "https://id.crossref.org/issn/0950-5849",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b24",
+          "series-title": "2013 international conference on advances in computing, communications and informatics",
+          "first-page": "1913",
+          "article-title": "Personalized and adaptive user interface framework for mobile application",
+          "author": "Nivethika",
+          "year": "2013"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b25",
+          "doi-asserted-by": "crossref",
+          "first-page": "285",
+          "DOI": "10.1007/s11036-020-01650-z",
+          "article-title": "Mobile data science and intelligent apps: concepts, ai-based modeling and research directions",
+          "volume": "26",
+          "author": "Sarker",
+          "year": "2021",
+          "journal-title": "Mob Netw. Appl"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.array.2026.100901_b26",
+          "doi-asserted-by": "crossref",
+          "first-page": "1434",
+          "DOI": "10.1016/j.chb.2007.07.010",
+          "article-title": "Capturing essential intrinsic user behaviour values for the design of comprehensive web-based personalized environments",
+          "volume": "24",
+          "author": "Germanakos",
+          "year": "2008",
+          "journal-title": "Comput Hum Behav",
+          "ISSN": "https://id.crossref.org/issn/0747-5632",
+          "issn-type": "print"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.array.2026.100901_b27",
+          "doi-asserted-by": "crossref",
+          "first-page": "317",
+          "DOI": "10.63332/joph.v5i7.2793",
+          "article-title": "Adaptive explainable AI: Personalizing machine explanations based on user expertise levels",
+          "volume": "5",
+          "author": "Mohammed",
+          "year": "2025",
+          "journal-title": "J Posthumanism"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b28",
+          "series-title": "2024 6th international conference on frontier technologies of information and computer",
+          "first-page": "1386",
+          "article-title": "Adaptive user interface generation through reinforcement learning: A data-driven approach to personalization and optimization",
+          "author": "Sun",
+          "year": "2024"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.array.2026.100901_b29",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.70393/6a6574626d.323332",
+          "article-title": "Enhancing user engagement through adaptive interfaces: A study on real-time personalization in web applications",
+          "volume": "1",
+          "author": "Cen",
+          "year": "2024",
+          "journal-title": "J Econ Theory Bus Manag"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b30",
+          "doi-asserted-by": "crossref",
+          "first-page": "157",
+          "DOI": "10.1007/s10994-013-5337-8",
+          "article-title": "Unsupervised feature selection with ensemble learning",
+          "volume": "98",
+          "author": "Elghazel",
+          "year": "2015",
+          "journal-title": "Mach Learn"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b31",
+          "series-title": "Umap: Uniform manifold approximation and projection for dimension reduction",
+          "author": "McInnes",
+          "year": "2018"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.array.2026.100901_b32",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1145/3068335",
+          "article-title": "DBSCAN revisited, revisited: why and how you should (still) use DBSCAN",
+          "volume": "42",
+          "author": "Schubert",
+          "year": "2017",
+          "journal-title": "ACM Trans Database Syst"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b33",
+          "series-title": "Virginia Tech, Advanced Research Computing, Interdisciplinary Center for Applied Mathematics",
+          "article-title": "K-means clustering",
+          "author": "Burkardt",
+          "year": "2009"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b34",
+          "doi-asserted-by": "crossref",
+          "first-page": "5",
+          "DOI": "10.1023/A:1010933404324",
+          "article-title": "Random forests",
+          "volume": "45",
+          "author": "Breiman",
+          "year": "2001",
+          "journal-title": "Mach Learn"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b35",
+          "doi-asserted-by": "crossref",
+          "first-page": "21",
+          "DOI": "10.3389/fnbot.2013.00021",
+          "article-title": "Gradient boosting machines, a tutorial",
+          "volume": "7",
+          "author": "Natekin",
+          "year": "2013",
+          "journal-title": "Front Neurorobotics"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen T, Guestrin C. Xgboost: A scalable tree boosting system. In: Proceedings of the 22nd acm sigkdd international conference on knowledge discovery and data mining. 2016, p. 785\u201394.",
+          "DOI": "10.1145/2939672.2939785"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b37",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.techfore.2021.120658",
+          "article-title": "CatBoost model and artificial intelligence techniques for corporate failure prediction",
+          "volume": "166",
+          "author": "Jabeur",
+          "year": "2021",
+          "journal-title": "Technol Forecast Soc Change"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b38",
+          "article-title": "Lightgbm: A highly efficient gradient boosting decision tree",
+          "volume": "30",
+          "author": "Ke",
+          "year": "2017",
+          "journal-title": "Adv Neural Inf Process Syst"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b39",
+          "first-page": "59",
+          "article-title": "Google colaboratory",
+          "author": "Bisong",
+          "year": "2019",
+          "journal-title": "Build Mach Learn Deep Learn Model Google Cloud Platf: A Compr Guid Beginners"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b40",
+          "series-title": "Advances in neural information processing systems (neurIPS)",
+          "article-title": "A unified approach to interpreting model predictions",
+          "author": "Lundberg",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b41",
+          "series-title": "Trust-money for android - download",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b42",
+          "series-title": "CellFin APK for android - download",
+          "year": "2023"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.array.2026.100901_b43",
+          "doi-asserted-by": "crossref",
+          "first-page": "577",
+          "DOI": "10.1080/10447318.2018.1455307",
+          "article-title": "The system usability scale: past, present, and future",
+          "volume": "34",
+          "author": "Lewis",
+          "year": "2018",
+          "journal-title": "Int J Human\u2013Computer Interact"
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b44",
+          "unstructured": "ISO I. TC 159/SC 4-Ergonomics of human-system interaction. Technical report, 1998."
+        },
+        {
+          "key": "10.1016/j.array.2026.100901_b45",
+          "first-page": "1090",
+          "article-title": "The effectiveness of usability evaluation methods: Determining the appropriate criteria",
+          "volume": "vol. 43",
+          "author": "Andre",
+          "year": "1999"
+        }
+      ],
+      "container-title": [
+        "Array"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2590005626002249?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2590005626002249?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            5
+          ]
+        ],
+        "date-time": "2026-10-05T13:00:46Z",
+        "timestamp": 1791205246000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2590005626002249"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            7
+          ]
+        ]
+      },
+      "references-count": 45,
+      "alternative-id": [
+        "S2590005626002249"
+      ],
+      "URL": "https://doi.org/10.1016/j.array.2026.100901",
+      "relation": {},
+      "ISSN": [
+        "2590-0056"
+      ],
+      "issn-type": [
+        {
+          "value": "2590-0056",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            7
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Adaptive User Interface for Mobile Banking Apps: Enhancing UX through Machine Learning",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Array",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.array.2026.100901",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "\u00a9 2026 The Authors. Published by Elsevier Inc.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "100901"
+    }
+  },
+  {
+    "doi": "10.1145/3723178.3723192",
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            19
+          ]
+        ],
+        "date-time": "2025-06-19T05:06:29Z",
+        "timestamp": 1750309589639,
+        "version": "3.41.0"
+      },
+      "publisher-location": "New York, NY, USA",
+      "reference-count": 21,
+      "publisher": "ACM",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                17
+              ]
+            ],
+            "date-time": "2024-10-17T00:00:00Z",
+            "timestamp": 1729123200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            17
+          ]
+        ]
+      },
+      "DOI": "10.1145/3723178.3723192",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            6
+          ]
+        ],
+        "date-time": "2025-06-06T07:16:47Z",
+        "timestamp": 1749194207000
+      },
+      "page": "99-106",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Light Canvas: An IoT-Based Interactive Virtual Drawing System for Enhancing Educational Engagement"
+      ],
+      "prefix": "10.1145",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0009-9392-247X",
+          "authenticated-orcid": false,
+          "given": "Khaled Hasan",
+          "family": "Irfan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Military Institute of Science and Technology, Dhaka, Bangladesh"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0004-0269-8518",
+          "authenticated-orcid": false,
+          "given": "Maliha",
+          "family": "Zerin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Military Institute of Science and Technology, Dhaka, Bangladesh"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0004-0169-7345",
+          "authenticated-orcid": false,
+          "given": "Enan Abdullah",
+          "family": "Khan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Military Institute of Science and Technology, Dhaka, Bangladesh"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0006-3562-6945",
+          "authenticated-orcid": false,
+          "given": "Nuraia Nahrin",
+          "family": "Fahmida",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Military Institute of Science and Technology, Dhaka, Bangladesh"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7905-8982",
+          "authenticated-orcid": false,
+          "given": "Tasmiah Tamzid",
+          "family": "Anannya",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Military Institute of Science and Technology, Dhaka, Bangladesh"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7256-1323",
+          "authenticated-orcid": false,
+          "given": "Nuzhat",
+          "family": "Tabassum",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "American International University-Bangladesh, Dhaka, Bangladesh"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7189-4879",
+          "authenticated-orcid": false,
+          "given": "Muhammad Nazrul",
+          "family": "Islam",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Military Institute of Science and Technology (MIST), Dhaka, Bangladesh"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            6
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_3_1_2_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/iccsii.2012.6454614"
+        },
+        {
+          "key": "e_1_3_3_1_3_2",
+          "unstructured": "Afzal Badshah Anwar Ghani Ali Daud Ateeqa Jalal Muhammad Bilal and Jon Crowcroft. 2023. Towards smart education through the internet of things: A review. arXiv preprint arXiv:https://arXiv.org/abs/2304.12851 (2023)."
+        },
+        {
+          "key": "e_1_3_3_1_4_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/NCIM59001.2023.10212918"
+        },
+        {
+          "key": "e_1_3_3_1_5_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3240508.3240692"
+        },
+        {
+          "key": "e_1_3_3_1_6_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-642-21593-3_11"
+        },
+        {
+          "key": "e_1_3_3_1_7_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/IIC.2015.7150886"
+        },
+        {
+          "key": "e_1_3_3_1_8_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Osama Halabi and Norishige Chiba. 2009. Efficient vector-oriented graphic drawing method for laser-scanned display. Displays 30 3 (2009) 97\u2013106.",
+          "DOI": "10.1016/j.displa.2009.03.003"
+        },
+        {
+          "key": "e_1_3_3_1_9_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICEEI.2011.6021617"
+        },
+        {
+          "key": "e_1_3_3_1_10_2",
+          "unstructured": "Kris Jangjarat Prapasiri Klayklung Piyawatjana Chocksathaporn and Prin Maskran. 2023. The impact of smart education on learning outcomes in the digital era: A systematic review. Advance Knowledge for Executives 2 2 (2023) 1\u20139."
+        },
+        {
+          "key": "e_1_3_3_1_11_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3232829.3232840"
+        },
+        {
+          "key": "e_1_3_3_1_12_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICCS45141.2019.9065459"
+        },
+        {
+          "key": "e_1_3_3_1_13_2",
+          "first-page": "305",
+          "volume-title": "2022 international conference on decision aid sciences and applications (DASA)",
+          "author": "Kukreja Vinay",
+          "year": "2022",
+          "unstructured": "Vinay Kukreja et\u00a0al. 2022. Segmentation and Contour Detection for handwritten mathematical expressions using OpenCV. In 2022 international conference on decision aid sciences and applications (DASA). IEEE, 305\u2013310."
+        },
+        {
+          "key": "e_1_3_3_1_14_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4018/978-1-5225-8446-9.ch017"
+        },
+        {
+          "key": "e_1_3_3_1_15_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Delali Kwasi\u00a0Dake Godwin Kudjo\u00a0Bada and Abraham Ekow\u00a0Dadzie. 2023. Internet of Things (IoT) applications in education: Benefits and implementation challenges in Ghanaian tertiary institutions. J. Inf. Technol. Educ. Res. 22 (2023) 311\u2013338.",
+          "DOI": "10.28945/5183"
+        },
+        {
+          "key": "e_1_3_3_1_16_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1040830.1040881"
+        },
+        {
+          "key": "e_1_3_3_1_17_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Soham Pardeshi Madhuvanti Apar Chaitanya Khot and Atharv Deshmukh. 2022. Air Doodle: A Realtime Virtual Drawing Tool. Int. J. Res. Appl. Sci. Eng. Technol. 10 IV Apr 2022 (2022).",
+          "DOI": "10.22214/ijraset.2022.40919"
+        },
+        {
+          "key": "e_1_3_3_1_18_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Md\u00a0Abdur Rahim Jungpil Shin and Md\u00a0Rashedul Islam. 2020. Hand gesture recognition-based non-touch character writing system on a virtual keyboard. Multimedia Tools and Applications 79 17-18 (2020) 11813\u201311836.",
+          "DOI": "10.1007/s11042-019-08448-6"
+        },
+        {
+          "key": "e_1_3_3_1_19_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/365024.365114"
+        },
+        {
+          "key": "e_1_3_3_1_20_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICALT.2018.00091"
+        },
+        {
+          "key": "e_1_3_3_1_21_2",
+          "unstructured": "Khushboo Sharma and Ashok Chaudhary. 2020. Education Technology: Awareness Among Teachers for Enhanced Learning Outcome. OORJA-International Journal of Management & IT 18 1 (2020)."
+        },
+        {
+          "key": "e_1_3_3_1_22_2",
+          "unstructured": "Mahmodul\u00a0Hasan Shesheir and Faiaz Ahmed. 2023. Edtech is only beginning in Bangladesh\u2014 dhakatribune.com. https://www.dhakatribune.com/opinion/op-ed/314120/edtech-is-only-beginning-in-bangladesh. [Accessed 25-03-2024]."
+        }
+      ],
+      "event": {
+        "name": "ICCA 2024: 3rd International Conference on Computing Advancements",
+        "acronym": "ICCA 2024",
+        "location": "Dhaka Bangladesh"
+      },
+      "container-title": [
+        "Proceedings of the 3rd International Conference on Computing Advancements"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/10.1145/3723178.3723192",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3723178.3723192",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            19
+          ]
+        ],
+        "date-time": "2025-06-19T01:56:46Z",
+        "timestamp": 1750298206000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/3723178.3723192"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            17
+          ]
+        ]
+      },
+      "references-count": 21,
+      "alternative-id": [
+        "10.1145/3723178.3723192",
+        "10.1145/3723178"
+      ],
+      "URL": "https://doi.org/10.1145/3723178.3723192",
+      "relation": {},
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            17
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2025-06-06",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "doi": "10.1109/ICCIT68739.2025.11491820",
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            7
+          ]
+        ],
+        "date-time": "2026-05-07T05:12:09Z",
+        "timestamp": 1778130729073,
+        "version": "3.51.4"
+      },
+      "reference-count": 9,
+      "publisher": "IEEE",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                19
+              ]
+            ],
+            "date-time": "2025-12-19T00:00:00Z",
+            "timestamp": 1766102400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                19
+              ]
+            ],
+            "date-time": "2025-12-19T00:00:00Z",
+            "timestamp": 1766102400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            19
+          ]
+        ]
+      },
+      "DOI": "10.1109/iccit68739.2025.11491820",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            6
+          ]
+        ],
+        "date-time": "2026-05-06T19:37:56Z",
+        "timestamp": 1778096276000
+      },
+      "page": "3836-3841",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "From Keywords to Context: A Comparative Analysis of Semantic (SBERT) vs Traditional Keyword-Based (Machine Learning) Matching for Job Recommendation"
+      ],
+      "prefix": "10.1109",
+      "author": [
+        {
+          "given": "Khaled",
+          "family": "Hasan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Military Institute of Science and Technology (MIST),Department of Computer Science and Engineering,Dhaka,Bangladesh"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Adib",
+          "family": "Hossain",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Military Institute of Science and Technology (MIST),Department of Computer Science and Engineering,Dhaka,Bangladesh"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Md Rashid Ul",
+          "family": "Islam",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Military Institute of Science and Technology (MIST),Department of Computer Science and Engineering,Dhaka,Bangladesh"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Aunindya Prosad",
+          "family": "Saha",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Military Institute of Science and Technology (MIST),Department of Computer Science and Engineering,Dhaka,Bangladesh"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Fahim",
+          "family": "Tazwar",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Military Institute of Science and Technology (MIST),Department of Computer Science and Engineering,Dhaka,Bangladesh"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "263",
+      "reference": [
+        {
+          "key": "ref1",
+          "volume-title": "Towards explainable job title matching: Leveraging semantic textual relatedness and knowledge graphs",
+          "author": "Zadykian",
+          "year": "2025"
+        },
+        {
+          "key": "ref2",
+          "volume-title": "Jobformer: Skill-aware job recommendation with semantic-enhanced transformer",
+          "author": "Guan",
+          "year": "2024"
+        },
+        {
+          "key": "ref3",
+          "volume-title": "Sentence-bert: Sentence embeddings using siamese bert-networks",
+          "author": "Reimers",
+          "year": "2019"
+        },
+        {
+          "key": "ref4",
+          "volume-title": "Embedding-based recommender system for job to candidate matching on scale",
+          "author": "Zhao",
+          "year": "2021"
+        },
+        {
+          "key": "ref5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.52783/jisem.v10i5s.681"
+        },
+        {
+          "key": "ref6",
+          "first-page": "101",
+          "article-title": "Semantic approaches survey for job recommender systems.",
+          "author": "Brek",
+          "year": "2022",
+          "journal-title": "RIF"
+        },
+        {
+          "key": "ref7",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1017/CBO9780511809071",
+          "volume-title": "Introduction to Information Retrieval",
+          "author": "Manning",
+          "year": "2008"
+        },
+        {
+          "key": "ref8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1561/1500000019"
+        },
+        {
+          "key": "ref9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5220/0003345104800485"
+        }
+      ],
+      "event": {
+        "name": "2025 28th International Conference on Computer and Information Technology (ICCIT)",
+        "location": "Cox's Bazar, Bangladesh",
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              19
+            ]
+          ]
+        },
+        "end": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              21
+            ]
+          ]
+        }
+      },
+      "container-title": [
+        "2025 28th International Conference on Computer and Information Technology (ICCIT)"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx8/11489965/11490092/11491820.pdf?arnumber=11491820",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            7
+          ]
+        ],
+        "date-time": "2026-05-07T04:31:15Z",
+        "timestamp": 1778128275000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://ieeexplore.ieee.org/document/11491820/"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            19
+          ]
+        ]
+      },
+      "references-count": 9,
+      "URL": "https://doi.org/10.1109/iccit68739.2025.11491820",
+      "relation": {},
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            19
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "doi": "10.1109/ICCIT68739.2025.11491675",
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            7
+          ]
+        ],
+        "date-time": "2026-05-07T05:12:16Z",
+        "timestamp": 1778130736747,
+        "version": "3.51.4"
+      },
+      "reference-count": 25,
+      "publisher": "IEEE",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                19
+              ]
+            ],
+            "date-time": "2025-12-19T00:00:00Z",
+            "timestamp": 1766102400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                19
+              ]
+            ],
+            "date-time": "2025-12-19T00:00:00Z",
+            "timestamp": 1766102400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            19
+          ]
+        ]
+      },
+      "DOI": "10.1109/iccit68739.2025.11491675",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            6
+          ]
+        ],
+        "date-time": "2026-05-06T19:37:56Z",
+        "timestamp": 1778096276000
+      },
+      "page": "4088-4093",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Assessing Usability of Agricultural Mobile Applications for Illiterate and Semi-Literate Farmers in Bangladesh"
+      ],
+      "prefix": "10.1109",
+      "author": [
+        {
+          "given": "Md Rashid Ul",
+          "family": "Islam",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Military Institute of Science and Technology (MIST),Department of Computer Science and Engineering,Dhaka,Bangladesh"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Khaled",
+          "family": "Hasan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Military Institute of Science and Technology (MIST),Department of Computer Science and Engineering,Dhaka,Bangladesh"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Tariq Hasan",
+          "family": "Rizu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Military Institute of Science and Technology (MIST),Department of Computer Science and Engineering,Dhaka,Bangladesh"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Iyolita",
+          "family": "Islam",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Bangladesh University of Professionals (BUP),Dhaka,Bangladesh"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Muhammad Nazrul",
+          "family": "Islam",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Military Institute of Science and Technology (MIST),Department of Computer Science and Engineering,Dhaka,Bangladesh"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "263",
+      "reference": [
+        {
+          "key": "ref1",
+          "first-page": "1560",
+          "article-title": "Adaptation towards climate change effects on coastal agriculture by the farmers of patuakhali district of bangladesh",
+          "volume": "3",
+          "author": "Howlader",
+          "year": "2015",
+          "journal-title": "International Journal of Agricultural Innovations and Research"
+        },
+        {
+          "issue": "2",
+          "key": "ref2",
+          "first-page": "49",
+          "article-title": "Mobile applications in agriculture: An overview",
+          "volume": "22",
+          "author": "Kambale",
+          "year": "2021",
+          "journal-title": "Journal of Agricultural Extension Management"
+        },
+        {
+          "key": "ref3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1596/21892"
+        },
+        {
+          "key": "ref4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/21582440231172741"
+        },
+        {
+          "key": "ref5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1959022.1959024"
+        },
+        {
+          "key": "ref6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1108/lht-07-2022-0349"
+        },
+        {
+          "key": "ref7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1108/IJCCSM-05-2016-0069"
+        },
+        {
+          "key": "ref8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2160601.2160608"
+        },
+        {
+          "key": "ref9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4018/ijmhci.2020040102"
+        },
+        {
+          "key": "ref10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.intcom.2008.09.002"
+        },
+        {
+          "key": "ref11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPC.2013.2257213"
+        },
+        {
+          "key": "ref12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14236/ewic/ihci2010.9"
+        },
+        {
+          "key": "ref13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4018/jmhci.2009010102"
+        },
+        {
+          "key": "ref14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2991/itmr.2017.6.3.4"
+        },
+        {
+          "key": "ref15",
+          "article-title": "Haater muthoy krishi",
+          "year": "2024",
+          "journal-title": "Soft Tech Innovation Ltd."
+        },
+        {
+          "key": "ref16",
+          "article-title": "Krishoker janala",
+          "year": "2024",
+          "journal-title": "Department of Agricultural Extension (DAE)"
+        },
+        {
+          "key": "ref17",
+          "article-title": "Khamar-e",
+          "year": "2024",
+          "journal-title": "Bangladesh Agricultural Research Council (BARC)"
+        },
+        {
+          "key": "ref18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1201/9781498710411-35"
+        },
+        {
+          "key": "ref19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1133265.1133291"
+        },
+        {
+          "key": "ref20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/191666.191729"
+        },
+        {
+          "key": "ref21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/10447310802205776"
+        },
+        {
+          "issue": "4",
+          "key": "ref22",
+          "doi-asserted-by": "crossref",
+          "first-page": "259",
+          "DOI": "10.1016/0169-7439(89)80095-4",
+          "article-title": "Analysis of variance (anova)",
+          "volume": "6",
+          "author": "St",
+          "year": "1989",
+          "journal-title": "Chemometrics and intelligent laboratory systems"
+        },
+        {
+          "issue": "3",
+          "key": "ref23",
+          "first-page": "114",
+          "article-title": "Determining what individual sus scores mean: Adding an adjective rating scale",
+          "volume": "4",
+          "author": "Bangor",
+          "year": "2009",
+          "journal-title": "Journal of usability studies"
+        },
+        {
+          "key": "ref24",
+          "volume-title": "Multilingual website usability analysis based on an international user survey",
+          "author": "Miraz",
+          "year": "2013"
+        },
+        {
+          "key": "ref25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/97243.97281"
+        }
+      ],
+      "event": {
+        "name": "2025 28th International Conference on Computer and Information Technology (ICCIT)",
+        "location": "Cox's Bazar, Bangladesh",
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              19
+            ]
+          ]
+        },
+        "end": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              21
+            ]
+          ]
+        }
+      },
+      "container-title": [
+        "2025 28th International Conference on Computer and Information Technology (ICCIT)"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx8/11489965/11490092/11491675.pdf?arnumber=11491675",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            7
+          ]
+        ],
+        "date-time": "2026-05-07T04:34:47Z",
+        "timestamp": 1778128487000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://ieeexplore.ieee.org/document/11491675/"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            19
+          ]
+        ]
+      },
+      "references-count": 25,
+      "URL": "https://doi.org/10.1109/iccit68739.2025.11491675",
+      "relation": {},
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            19
+          ]
+        ]
+      }
+    }
+  }
+]

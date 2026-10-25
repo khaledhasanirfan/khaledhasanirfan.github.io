@@ -6,3 +6,10 @@ data/
 .env
 .DS_Store
 npm-debug.log*
+
+# Private audit intermediates; screenshots and public source evidence may be reviewed.
+review/cv-*.txt
+review/cv-*.png
+review/assets-contact-sheet.jpg
+review/font-source*.css
+review/modern-dark-fonts.css
