@@ -69,3 +69,7 @@ The owner approved publication on 25 October 2026. Merge the validated release i
 ## Approved color revision
 
 Lime-green primary buttons use dark lettering, matching the supplied reference and preserving contrast. Main text is off-white; selected names, research terms and links use a contrasting purple. The same accents appear in the neural backdrop. Build, static checks, and publishing integration tests pass. All 15 pages were checked again at actual 320/390/768/1440 pixel widths (60 combinations), with no overflow or broken loaded images. Evidence: `review/release-responsive-checks.json`, `review/release-desktop.jpg`, and `review/release-mobile.jpg`.
+
+## Research-profile revision — 26 October 2026
+
+Build, local link/anchor/asset checks, contrast checks, and the existing content-publishing integration test pass after the profile and CV navigation changes. Verified that Home/About/Contact use Spring / Fall 2027, Home and Research have no robotics interest, and biography copy no longer uses the robot-origin story. The homepage CV link points directly to the PDF with a download attribute; the old CV URL redirects successfully to the homepage download. Federated learning/optimization and related reinforcement-learning/autonomous-system interests have no fabricated associated project or publication.

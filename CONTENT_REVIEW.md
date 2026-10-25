@@ -70,3 +70,9 @@ Build/check/test results and screenshots are recorded in `QA_REPORT.md` and `rev
 ## Publication approval
 
 On 25 October 2026 the owner explicitly requested publishing the update to the live GitHub Pages URL, with lime-green buttons, white/off-white text, and contrasting purple highlights. This approval satisfies the earlier replacement gate. The documentation above records the audit/review phase; remaining editorial questions do not change the confirmed publication status of each work.
+
+## Research-profile revision — 26 October 2026
+
+At the owner's request, the opportunity wording now targets **Spring / Fall 2027** across Home, About, and Contact. Federated learning and optimization replace the former robotics interest area. Reinforcement learning and autonomous systems are described as interests, with no unsupported publications, completed studies, or results claimed. The robot-origin biography and homepage rover highlight have been replaced with current research motivation and documented intelligent-sensing work. Historical service, awards, and project records remain factual portfolio history.
+
+The homepage now offers a direct PDF download. CV navigation and the separate CV content page have been removed; the old `cv.html` URL only redirects to `index.html#cv` and is excluded from the sitemap.

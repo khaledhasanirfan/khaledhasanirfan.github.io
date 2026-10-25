@@ -7,7 +7,7 @@
   "email": "khaled@cse.mist.ac.bd",
   "personalEmail": "khaledirfan7@gmail.com",
   "siteUrl": "https://khaledhasanirfan.github.io",
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "cv": "assets/files/khaled-hasan-cv.pdf",
   "portrait": "assets/images/portrait.webp",
   "portraitAlt": "Khaled Hasan standing by the sea",
@@ -15,9 +15,9 @@
   "intro": "I study how language models and intelligent agents can reason, collaborate, and remain reliable in the real world.",
   "bio": [
     "I am a lecturer and researcher at MIST, Bangladesh. My primary research focus is LLM/VLM systems and agentic AI, with an emphasis on multimodal reasoning, uncertainty, evaluation, and failure analysis.",
-    "My work also connects human–AI interaction, explainable machine learning, and reliable edge and sensing systems. I enjoy building systems, examining where they fail, and learning across these connected areas."
+    "My interests also include human–AI interaction, explainable machine learning, federated learning, and optimization. I am interested in reinforcement learning and autonomous systems, especially questions of reliability, adaptation, and decision-making."
   ],
-  "opportunity": "I am seeking fully funded Ph.D. opportunities for Fall 2027 in reliable AI systems, LLMs, and agentic AI.",
+  "opportunity": "I am seeking fully funded Ph.D. opportunities for Spring / Fall 2027 in reliable AI systems, LLMs, and agentic AI.",
   "links": {
     "scholar": "https://scholar.google.com/citations?user=SQYAqu8AAAAJ&hl=en",
     "github": "https://github.com/khaledhasanirfan",
@@ -25,7 +25,7 @@
   },
   "lifeTitle": "Life & Travels",
   "teachingPhilosophy": "I want students to connect the ideas behind a system with the choices involved in building it. In programming and systems courses, I emphasize clear reasoning, implementation, and the habit of testing assumptions. Laboratory work gives students space to experiment, debug, and explain their decisions. In research and thesis supervision, I encourage careful problem formulation, appropriate evaluation, and honest interpretation of results. My aim is to help students become independent learners who can communicate technical work clearly, ask useful questions, and recognize the limits of what their evidence supports.",
-  "researchMotivation": "My interest in robotics began with a Bluetooth-controlled Arduino car during my early undergraduate years. Seeing a physical device respond to code I had written made computing feel tangible. That experience led me toward robotics and computer vision, then toward machine learning and the questions of reliability and human use that shape my research today.",
+  "researchMotivation": "My research is motivated by how intelligent systems learn, adapt, and make decisions under real-world constraints. Alongside language models and agentic AI, I am interested in federated learning, optimization, reinforcement learning, and autonomous systems. I want to understand how these approaches can support dependable learning and decision-making.",
   "lifeIntro": "I love travelling, exploring unfamiliar places, and finding new adventures by the water. I am happiest discovering a different cuisine, sharing a good meal, or joining a game—almost any sport will do.",
   "lifeInterests": [
     {

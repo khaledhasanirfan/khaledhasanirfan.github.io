@@ -58,8 +58,7 @@
       ],
       "related": [],
       "projects": [
-        "airborne-automl",
-        "delivery-bot"
+        "airborne-automl"
       ],
       "directions": [
         "Reliable Edge AI",
@@ -69,25 +68,22 @@
       ]
     },
     {
-      "id": "vision-robotics",
-      "title": "Computer vision & robotics",
-      "label": "Engineering foundation",
-      "summary": "Visual perception, embedded systems, and interactive tools that connect software with the physical world.",
-      "motivation": "Building interactive and autonomous systems connects learning algorithms with the practical constraints of sensing, communication, and control.",
+      "id": "federated-optimization",
+      "title": "Federated learning & optimization",
+      "label": "Research interests",
+      "summary": "Distributed learning, optimization, and efficient adaptation, with interests in reinforcement learning and autonomous systems.",
+      "motivation": "How can learning and optimization support reliable decisions when data, computation, and feedback are distributed or constrained?",
       "questions": [
-        "How can perception support useful real-time interaction?",
-        "How can embedded intelligence remain dependable when sensing conditions change?"
+        "How can federated learning balance privacy, communication cost, and generalization across heterogeneous data?",
+        "How can optimization and reinforcement learning support reliable adaptation and decision-making in autonomous systems?"
       ],
-      "related": [
-        "light-canvas"
-      ],
-      "projects": [
-        "light-canvas",
-        "delivery-bot"
-      ],
+      "related": [],
+      "projects": [],
       "directions": [
-        "Visual interaction",
-        "Learning-assisted state estimation"
+        "Federated and distributed learning",
+        "Optimization for reliable and efficient learning",
+        "Reinforcement learning",
+        "Autonomous systems"
       ]
     }
   ],

@@ -47,7 +47,7 @@ Use `YYYY-MM` (or `YYYY-MM-DD`) with a verified month. The newest five entries a
 ## CV, portrait, and contact
 
 - Replace `docs/assets/files/khaled-hasan-cv.pdf` with the new general academic CV. Update `docs/cv.pdf` too to preserve that old public download URL. The current PDF is v1 supplied for this redesign; alternate targeted CVs are not exposed in the navigation.
-- To change the filename, edit `cv` in `content/profile.json`.
+- To change the filename, edit `cv` in `content/profile.json`. The homepage Download CV button links directly to this PDF. There is no separate CV content page; the old `cv.html` bookmark redirects to `index.html#cv`.
 - Replace `docs/assets/images/portrait.webp`, or change `portrait` and `portraitAlt` in the profile file. Preserve a real photograph. Around 900–1200px wide is sufficient; export an efficient WebP.
 - Edit email, affiliation, social links, biography, Ph.D. opportunity wording, and personal interests in `content/profile.json`. The header, footer, and contact links use this source.
 - Edit education, experience, awards, service and course lists in `content/academic.json`.
