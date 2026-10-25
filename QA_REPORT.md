@@ -2,7 +2,7 @@
 
 ## Result
 
-The dark redesign is implemented on `codex/academic-portfolio-redesign` for owner review. The live GitHub Pages configuration remains **`main:/docs`**. No production deployment or Pages settings change has been performed.
+The dark redesign was prepared on `codex/academic-portfolio-redesign`. The owner authorized production publication on 25 October 2026, with green action buttons, brighter text, and purple highlights. GitHub Pages continues to publish **`main:/docs`**. The pre-release checks below were completed before merging the approved release.
 
 ## Automated checks
 
@@ -64,4 +64,8 @@ npm run dev
 
 Open http://127.0.0.1:4173/. No package installation is required. The preview serves the actual `docs/` publishing output. Refresh after rebuilding content. Stop the preview after the review is complete.
 
-Review the draft branch/PR and outstanding content questions before approving replacement of the live site. After approval, merge into `main`, then inspect the GitHub Pages deployment and live pages. The old site remains in Git history at `26627c4`; no replacement has been published by this work.
+The owner approved publication on 25 October 2026. Merge the validated release into `main`, then confirm GitHub Pages deployment and inspect the live pages. The old site remains recoverable in Git history at `26627c4`.
+
+## Approved color revision
+
+Lime-green primary buttons use dark lettering, matching the supplied reference and preserving contrast. Main text is off-white; selected names, research terms and links use a contrasting purple. The same accents appear in the neural backdrop. Build, static checks, and publishing integration tests pass. All 15 pages were checked again at actual 320/390/768/1440 pixel widths (60 combinations), with no overflow or broken loaded images. Evidence: `review/release-responsive-checks.json`, `review/release-desktop.jpg`, and `review/release-mobile.jpg`.

@@ -4,7 +4,7 @@ A static academic portfolio, writing notebook, and life/photo journal for [khale
 
 ## Production and review
 
-GitHub Pages is configured to publish **`main` → `/docs`** (confirmed using the GitHub Pages API on 25 October 2026). The redesign is on **`codex/academic-portfolio-redesign`** for review. Pushing that working branch does not replace the live site. Merge only after the owner approves the design and content.
+GitHub Pages is configured to publish **`main` → `/docs`** (confirmed using the GitHub Pages API on 25 October 2026). The owner approved publication on **25 October 2026**, including green action buttons, brighter text, and purple highlights. The redesign was prepared on **`codex/academic-portfolio-redesign`** and released through pull request #2. Future changes should also be checked before merging into `main`.
 
 ## Preview
 

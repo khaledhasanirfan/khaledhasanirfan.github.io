@@ -52,7 +52,7 @@ if not cv.startswith(b'%PDF') or len(cv)<10000:errors.append('CV is not a substa
 # WCAG relative luminance check for the core text colors on their backgrounds.
 def lum(c):
  rgb=[int(c[i:i+2],16)/255 for i in (1,3,5)];rgb=[x/12.92 if x<=.04045 else ((x+.055)/1.055)**2.4 for x in rgb];return sum(a*b for a,b in zip(rgb,[.2126,.7152,.0722]))
-for fg,bg in [('#e8eef4','#10151c'),('#a6b2c2','#10151c'),('#8bb9f4','#10151c'),('#83c7c0','#10151c'),('#101b2b','#a3c7f9'),('#92d4ca','#10151c'),('#d6bd88','#10151c'),('#8299b1','#10151c')]:
+for fg,bg in [('#e8eef4','#10151c'),('#a6b2c2','#10151c'),('#8bb9f4','#10151c'),('#83c7c0','#10151c'),('#10151c','#c5f345'),('#10151c','#d5ff6b'),('#bba7ff','#10151c'),('#f2f3f0','#10151c'),('#c0c7d1','#10151c'),('#c5f345','#222c18'),('#92d4ca','#10151c'),('#d6bd88','#10151c'),('#8299b1','#10151c')]:
  a,b=sorted([lum(fg),lum(bg)]);ratio=(b+.05)/(a+.05)
  if ratio<4.5:errors.append(f'Core color contrast below AA: {fg}/{bg} {ratio:.2f}')
 if errors:print('\n'.join(errors));sys.exit(1)

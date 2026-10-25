@@ -66,3 +66,7 @@ Build/check/test results and screenshots are recorded in `QA_REPORT.md` and `rev
 - The owner requested a dark background, modern sans-serif typography, a neural-network atmosphere, a background-free portrait, fewer introductory labels, and list-based publication/project layouts. These instructions supersede the initial light/serif design in the master brief. The final theme uses Manrope and IBM Plex Sans, a restrained static neural-network backdrop, and editorial lists. No particle engine or continuous animation was introduced.
 - Background removal of the supplied portrait was performed with the built-in image editing tool, then transparency-preserving WebP optimization. This is an edited portrait derived from the real photograph; the original remains unchanged. Review the cutout for any identity/detail alterations before production. Prompt/provenance: `review/portrait-edit.json`.
 - Personal interests now reflect the owner's statement: travel, exploring, adventures by the water, different cuisines/food, and many sports. No specific destination, trip date, match, or life event has been invented.
+
+## Publication approval
+
+On 25 October 2026 the owner explicitly requested publishing the update to the live GitHub Pages URL, with lime-green buttons, white/off-white text, and contrasting purple highlights. This approval satisfies the earlier replacement gate. The documentation above records the audit/review phase; remaining editorial questions do not change the confirmed publication status of each work.
