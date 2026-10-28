@@ -35,3 +35,15 @@ if(photos.length&&typeof HTMLDialogElement!=='undefined'){
  dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
  dialog.addEventListener('close',()=>trigger?.focus());
 }
+
+// One-time arrivals preserve a complete static page and respect motion preferences.
+const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
+if('IntersectionObserver' in window && !reducedMotion.matches){
+ const arrivals=new IntersectionObserver(entries=>entries.forEach(entry=>{
+  if(entry.isIntersecting){entry.target.classList.add('revealed');arrivals.unobserve(entry.target);}
+ }),{threshold:.12});
+ document.querySelectorAll('.section-heading, .page-intro, .journal-empty').forEach(el=>arrivals.observe(el));
+ reducedMotion.addEventListener('change',event=>{if(event.matches)arrivals.disconnect();});
+}
+const desktopLayout=window.matchMedia('(min-width: 1051px)');
+desktopLayout.addEventListener('change',event=>{if(event.matches)document.querySelectorAll('.mobile-navigation').forEach(menu=>menu.open=false);});

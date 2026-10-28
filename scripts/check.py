@@ -55,5 +55,14 @@ def lum(c):
 for fg,bg in [('#e8eef4','#10151c'),('#a6b2c2','#10151c'),('#8bb9f4','#10151c'),('#83c7c0','#10151c'),('#10151c','#c5f345'),('#10151c','#d5ff6b'),('#bba7ff','#10151c'),('#f2f3f0','#10151c'),('#c0c7d1','#10151c'),('#c5f345','#222c18'),('#92d4ca','#10151c'),('#d6bd88','#10151c'),('#8299b1','#10151c')]:
  a,b=sorted([lum(fg),lum(bg)]);ratio=(b+.05)/(a+.05)
  if ratio<4.5:errors.append(f'Core color contrast below AA: {fg}/{bg} {ratio:.2f}')
+# Validate the active design tokens rather than only the legacy palette.
+modern=(DOCS/'assets/modern.css').read_text()
+token_block=modern.split(':root{',1)[1].split('}',1)[0]
+tokens=dict(re.findall(r'(--[a-z-]+):(#[a-fA-F0-9]{6})',token_block))
+for key in ['--ink','--muted','--purple','--action']:
+ a,b=sorted([lum(tokens[key]),lum(tokens['--paper'])])
+ if (b+.05)/(a+.05)<4.5:errors.append(f'Active design contrast below AA: {key}')
+a,b=sorted([lum(tokens['--action-ink']),lum(tokens['--action'])])
+if (b+.05)/(a+.05)<4.5:errors.append('Active action label contrast below AA')
 if errors:print('\n'.join(errors));sys.exit(1)
 print(f'PASS: {len(pages)} HTML pages; local links and anchors, metadata, landmarks, image alt text, XML feeds, DOI uniqueness, CV, and core AA color contrast.')
