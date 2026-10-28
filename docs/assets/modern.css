@@ -140,6 +140,8 @@ main>.container:before{content:'';height:1px;background:var(--line);position:abs
 .footer-top h2{font-family:var(--serif);font-size:32px;font-weight:500;margin-bottom:22px}.footer-links>a{color:#f1f5eb}
 .footer-bottom{color:#d2d9cd;border-color:var(--line)}.footer-email.button{font-size:16px;max-width:100%}
 /* Justify prose only. Last lines, headings, controls, and citation metadata remain natural. */
+main :where(p){text-align:justify;text-justify:inter-word;hyphens:auto;-webkit-hyphens:auto;hyphenate-limit-chars:8 3 3}
+main :where(.affiliation,.authors,.venue,.publication-kind,.eyebrow,.project-status,.article-byline,.image-credit){text-align:start;hyphens:manual;-webkit-hyphens:manual}
 :is(.bio,.hero-intro,.page-lead,.section-intro,.publication-summary,.project-summary,.project-description p,.project-preview p:not(.eyebrow):not(.image-credit),.research-statement p,.research-area .lead,.interest-grid p,.about-story p,.timeline p,.teaching-philosophy p,.mentoring p,.life-personal-intro,.life-interests article p,.journal-empty p,.prose p,.entry-card>div>p:not(.eyebrow)){text-align:justify;text-justify:inter-word;hyphens:auto;-webkit-hyphens:auto;hyphenate-limit-chars:8 3 3}
 .hero .hero-copy p.hero-intro{hyphens:manual;-webkit-hyphens:manual}
 /* Small motion never gates access to content. */
