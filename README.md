@@ -33,6 +33,8 @@ Commit both the edited source **and generated `docs/` output**. GitHub Pages ser
 
 ## Structure
 
+For future visual updates, read [DESIGN_REFERENCES.md](DESIGN_REFERENCES.md): Khaled's XBOW, XBOW Labs, and Command Code inspiration brief and the portfolio preferences it must preserve.
+
 | Path | Purpose |
 | --- | --- |
 | `content/profile.json` | Biography, main research identity, contact/social links, CV/portrait paths, teaching philosophy, and personal interests |
@@ -47,7 +49,7 @@ Commit both the edited source **and generated `docs/` output**. GitHub Pages ser
 | `scripts/build.mjs` | Shared page templates and conservative Markdown renderer |
 | `scripts/preview.mjs` | Dependency-free local static server |
 | `docs/` | Generated GitHub Pages website and static assets |
-| `docs/assets/style.css`, `docs/assets/app.js` | Shared design and optional progressive interactions |
+| `docs/assets/style.css`, `docs/assets/modern.css`, `docs/assets/app.js` | Base layouts, active reference-inspired design system, and progressive interactions |
 | `docs/assets/files/khaled-hasan-cv.pdf` | Current primary-focus academic CV |
 | `CONTENT_GUIDE.md` | Step-by-step editing and publishing instructions |
 | `CONTENT_REVIEW.md` | Source reconciliation and outstanding factual questions |
