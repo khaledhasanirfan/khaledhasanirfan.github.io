@@ -6,6 +6,12 @@ Khaled asked to study **https://xbow.com/** and **https://xbow.com/labs** and re
 
 Read this brief before future visual updates. Adapt the references to an academic portfolio; preserve Khaled's identity, content, and established preferences.
 
+## Implemented direction — 28 October 2026
+
+Khaled subsequently requested a first redesign using all three references. The active implementation is in `docs/assets/modern.css`; validation evidence is in `review/reference-design/`.
+
+His standing preferences for future changes are brighter white text against dark backgrounds, justified longer prose, contextual bold/highlight/heading treatment, and careful responsiveness across phones, tablets/iPads, and laptops. Preserve natural last lines and readable citation metadata. Check representative narrow, intermediate, and wide layouts on every affected page, including menus and expanded content; fix observed overflow and clipping before publishing. Do not equate a viewport audit with testing every physical device.
+
 ## Observed on XBOW's homepage
 
 Reviewed the desktop hero, desktop Platform dropdown, scrolling sections, and mobile hero/menu.
